@@ -1,5 +1,6 @@
 theme = "adwaita-dark"
 
+
 [editor]
 shell = ["fish", "-c"]
 line-number = "relative"
