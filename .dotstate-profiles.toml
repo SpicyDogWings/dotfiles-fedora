@@ -7,4 +7,17 @@ synced_files = [
     ".config/starship.toml",
     ".config/zed",
 ]
-packages = []
+
+[[profiles.packages]]
+name = "yazi"
+description = "File Manager"
+manager = "dnf"
+package_name = "yazi"
+binary_name = "yazi"
+
+[[profiles.packages]]
+name = "fzf"
+description = "Fuzy Finder"
+manager = "dnf"
+package_name = "fzf"
+binary_name = "fzf"
