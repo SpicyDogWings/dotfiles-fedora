@@ -1,0 +1,40 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "relative_line_numbers": "enabled",
+  "vim_mode": true,
+  "buffer_line_height": "comfortable",
+  "format_on_save": "off",
+  "features": {
+    "edit_prediction_provider": "codestral"
+  },
+  "agent": {
+    "inline_assistant_model": {
+      "provider": "mistral",
+      "model": "devstral-small-latest"
+    },
+    "default_profile": "write",
+    "default_model": {
+      "provider": "mistral",
+      "model": "codestral-latest"
+    },
+    "dock": "left",
+    "model_parameters": []
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "ui_font_size": 20.0,
+  "buffer_font_size": 20.0,
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Tokyo Night"
+  }
+}

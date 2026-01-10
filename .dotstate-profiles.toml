@@ -1,0 +1,10 @@
+[[profiles]]
+name = "default"
+synced_files = [
+    ".config/fish",
+    ".config/ghostty",
+    ".config/helix",
+    ".config/starship.toml",
+    ".config/zed",
+]
+packages = []

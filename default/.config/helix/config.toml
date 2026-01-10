@@ -1,0 +1,30 @@
+theme = "adwaita-dark"
+
+[editor]
+shell = ["fish", "-c"]
+line-number = "relative"
+cursorline = true
+auto-format = false
+bufferline = "multiple"
+color-modes = true
+end-of-line-diagnostics = "hint"
+
+[editor.statusline]
+mode.normal = "NAVEGACIÓN"
+mode.insert = "ESCRITURA"
+mode.select = "SELECIÓN"
+
+[editor.cursor-shape]
+normal = "bar"
+insert = "underline"
+
+[editor.indent-guides]
+render = true
+character = "╎"
+skip-levels = 1
+
+[editor.smart-tab]
+enable = false
+
+[editor.inline-diagnostics]
+cursor-line = "warning"

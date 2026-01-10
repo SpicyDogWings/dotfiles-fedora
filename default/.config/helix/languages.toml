@@ -1,0 +1,18 @@
+[[language]]
+name = "html"
+formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.html"] }
+language-servers = ["vscode-html-languageserver"]
+auto-format = true
+[language-server.vscode-html-languageserver]
+command = "vscode-html-languageserver"
+args = ["--stdio"]
+
+[[language]]
+name = "css"
+formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.html"] }
+language-servers = ["vscode-css-languageserver"]
+auto-format = true
+[language-server.vscode-css-languageserver]
+command = "vscode-css-languageserver"
+args = ["--stdio"]
+
