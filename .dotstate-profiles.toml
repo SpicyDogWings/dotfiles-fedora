@@ -11,9 +11,10 @@ synced_files = [
 [[profiles.packages]]
 name = "yazi"
 description = "File Manager"
-manager = "dnf"
-package_name = "yazi"
+manager = "custom"
 binary_name = "yazi"
+install_command = "./package_scripts/yazi.sh"
+existence_check = "yazi"
 
 [[profiles.packages]]
 name = "fzf"
@@ -21,3 +22,10 @@ description = "Fuzy Finder"
 manager = "dnf"
 package_name = "fzf"
 binary_name = "fzf"
+
+[[profiles.packages]]
+name = "helix"
+description = "Editor de terminal"
+manager = "dnf"
+package_name = "helix"
+binary_name = "hx"
