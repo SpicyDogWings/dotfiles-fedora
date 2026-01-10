@@ -1,5 +1,4 @@
-theme = "adwaita-dark"
-
+theme = "dracula"
 
 [editor]
 shell = ["fish", "-c"]
