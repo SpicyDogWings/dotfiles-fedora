@@ -1,3 +1,8 @@
+version = 1
+
+[common]
+synced_files = []
+
 [[profiles]]
 name = "default"
 synced_files = [
@@ -6,6 +11,7 @@ synced_files = [
     ".config/helix",
     ".config/starship.toml",
     ".config/zed",
+    ".config/zellij",
 ]
 
 [[profiles.packages]]

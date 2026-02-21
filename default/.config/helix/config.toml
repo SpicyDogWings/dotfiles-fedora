@@ -1,4 +1,4 @@
-theme = "dracula"
+theme = "catppuccin_latte"
 
 [editor]
 shell = ["fish", "-c"]

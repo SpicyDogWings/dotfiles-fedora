@@ -9,37 +9,39 @@
 {
   "icon_theme": "Base Charmed Icons",
   "edit_predictions": {
-    "provider": "codestral",
     "codestral": {
-      "api_url": "https://codestral.mistral.ai/v1/fim/completions",
+      "api_url": "https://codestral.mistral.ai/v1/fim/completions"
     },
-    "mode": "eager",
+    "mode": "eager"
   },
   "relative_line_numbers": "disabled",
   "vim_mode": false,
   "buffer_line_height": "comfortable",
   "format_on_save": "off",
+  "features": {
+    "edit_prediction_provider": "codestral"
+  },
   "agent": {
     "inline_assistant_model": {
       "provider": "mistral",
-      "model": "devstral-small-latest",
+      "model": "devstral-small-latest"
     },
     "default_profile": "write",
     "default_model": {
       "provider": "mistral",
-      "model": "codestral-latest",
+      "model": "codestral-latest"
     },
     "dock": "left",
-    "model_parameters": [],
+    "model_parameters": []
   },
   "project_panel": {
-    "dock": "right",
+    "dock": "right"
   },
   "ui_font_size": 20.0,
   "buffer_font_size": 20.0,
   "theme": {
-    "mode": "light",
-    "light": "Catppuccin Latte",
-    "dark": "Tokyo Night",
-  },
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Tokyo Night"
+  }
 }

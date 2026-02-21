@@ -16,3 +16,23 @@ auto-format = true
 command = "vscode-css-languageserver"
 args = ["--stdio"]
 
+[[language]]
+name = "vue"
+formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.html"] }
+scope = "source.vue"
+injection-regex = "vue"
+file-types = ["vue"]
+language-servers = ["volar", "oxlint"]
+
+[language-server.volar]
+command = "vue-language-server"
+args = ["--stdio"]
+
+
+[language-server.tailwindcss-language-server]
+command = "tailwindcss-language-server"
+args = ["--stdio"]
+
+[language-server.emmet-lsp]
+command = "emmet-ls"
+args = ["--stdio"]
