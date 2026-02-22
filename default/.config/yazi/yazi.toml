@@ -1,0 +1,5 @@
+[opener]
+edit = [
+  {run = "$EDITOR %s", desc = "Edit in default editor", block = true },
+  {run = "neovide %s", desc = "Edit in neovide", orphan = true }
+]
