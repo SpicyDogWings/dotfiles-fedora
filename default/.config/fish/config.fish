@@ -6,12 +6,4 @@ starship init fish | source
 
 set fish_greeting ""
 
-fastfetch --logo "~/.config/fastfetch/logo.txt"
-
-# opencode
-fish_add_path /home/spicydogwings/.opencode/bin
-
-# bun
-set --export BUN_INSTALL "$HOME/.bun"
-set --export PATH $BUN_INSTALL/bin $PATH
-
+# fastfetch --logo "~/.config/fastfetch/logo.txt"

@@ -1,4 +1,17 @@
 {
+  "edit_predictions": {
+    "mode": "subtle",
+    "provider": "codestral"
+  },
+  "agent_servers": {
+    "mistral-vibe": {
+      "type": "registry"
+    },
+    "opencode": {
+      "type": "registry"
+    }
+  },
+  "relative_line_numbers": "enabled",
   "agent": {
     "dock": "left",
     "favorite_models": [],
@@ -7,89 +20,89 @@
   "icon_theme": "Warm Charmed Icons",
   "theme": "Retro 001",
   "title_bar": {
-    "show_onboarding_banner": false,
-    "show_project_items": false,
-    "show_branch_name": false,
-    "show_user_menu": false,
+    "show_onboarding_banner": true,
+    "show_project_items": true,
+    "show_branch_name": true,
+    "show_user_menu": true,
   },
   "tab_bar": {
-    "show": false,
+    "show": true,
   },
   "toolbar": {
-    "quick_actions": false,
+    "quick_actions": true,
   },
   "status_bar": {
-    "experimental.show": false,
+    "experimental.show": true,
   },
   "project_panel": {
     "dock": "right",
     "default_width": 400,
     "hide_root": true,
     "auto_fold_dirs": false,
-    "starts_open": false,
-    "git_status": false,
+    "starts_open": true,
+    "git_status": true,
     "sticky_scroll": false,
     "scrollbar": {
-      "show": "never",
+      "show": "always",
     },
     "indent_guides": {
-      "show": "never",
+      "show": "always",
     },
   },
   "outline_panel": {
     "default_width": 300,
     "indent_guides": {
-      "show": "never",
+      "show": "always",
     },
   },
   "file_finder": {
     "modal_max_width": "large",
   },
   "scrollbar": {
-    "show": "never",
+    "show": "always",
   },
   "gutter": {
     "min_line_number_digits": 0,
-    "folds": false,
-    "runnables": false,
+    "folds": true,
+    "runnables": true,
   },
   "indent_guides": {
-    "enabled": false,
+    "enabled": true,
   },
   "ui_font_family": "CommitMono Nerd Font",
-  "ui_font_size": 20,
+  "ui_font_size": 16.0,
   "buffer_font_family": "CommitMono Nerd Font",
-  "buffer_font_size": 20,
+  "buffer_font_size": 16.0,
   "buffer_line_height": {
     "custom": 2,
   },
-  "agent_buffer_font_size": 20,
-  "helix_mode": true,
+  "agent_buffer_font_size": 16.0,
+  "helix_mode": false,
   "multi_cursor_modifier": "cmd_or_ctrl",
-  "cursor_shape": "block",
-  "cursor_blink": false,
-  "selection_highlight": false,
+  "cursor_shape": "underline",
+  "cursor_blink": true,
+  "selection_highlight": true,
   "drag_and_drop_selection": {
     "enabled": false,
   },
-  "seed_search_query_from_cursor": "never",
-  "current_line_highlight": "none",
+  "seed_search_query_from_cursor": "always",
+  "current_line_highlight": "all",
   "show_whitespaces": "none",
   "tab_size": 2,
-  "auto_indent": false,
+  "auto_indent": "syntax_aware",
   "auto_indent_on_paste": false,
-  "show_completions_on_input": false,
-  "show_completion_documentation": false,
-  "inline_code_actions": false,
-  "lsp_document_colors": "none",
-  "hover_popover_enabled": false,
+  "show_completions_on_input": true,
+  "show_completion_documentation": true,
+  "inline_code_actions": true,
+  "lsp_document_colors": "background",
+  "hover_popover_enabled": true,
   "format_on_save": "off",
   "autosave": {
     "after_delay": {
       "milliseconds": 1000,
     },
   },
-  "auto_update": false,
+  "auto_update": true,
   "extend_comment_on_newline": false,
   "horizontal_scroll_margin": 1,
   "vertical_scroll_margin": 1,
@@ -101,9 +114,9 @@
     "restore_unsaved_buffers": false,
   },
   "git": {
-    "git_gutter": "hide",
+    "git_gutter": "tracked_files",
     "inline_blame": {
-      "enabled": false,
+      "enabled": true,
     },
   },
   "centered_layout": {
