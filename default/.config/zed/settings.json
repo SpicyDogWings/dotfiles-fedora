@@ -17,8 +17,16 @@
     "favorite_models": [],
     "model_parameters": []
   },
-  "icon_theme": "Warm Charmed Icons",
-  "theme": "Retro 001",
+  "icon_theme": {
+    "mode": "light",
+    "light": "Warm Charmed Icons",
+    "dark": "Warm Charmed Icons"
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Cake 001"
+  },
   "title_bar": {
     "show_onboarding_banner": true,
     "show_project_items": true,
