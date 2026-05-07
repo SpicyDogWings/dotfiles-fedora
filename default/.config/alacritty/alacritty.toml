@@ -1,0 +1,21 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/autumn.toml"
+]
+
+[window]
+decorations = "None"
+padding = { x = 20, y = 20 }
+
+[font]
+normal = { family = "CommitMono Nerd Font" }
+size = 14
+
+[colors]
+transparent_background_colors = true
+
+[selection]
+save_to_clipboard = true
+
+[cursor]
+style = { shape = "Underline", blinking = "Always" }
