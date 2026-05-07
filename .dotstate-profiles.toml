@@ -10,6 +10,7 @@ synced_files = [
     ".config/fish",
     ".config/ghostty",
     ".config/helix",
+    ".config/niri",
     ".config/starship.toml",
     ".config/yazi",
     ".config/zed",
