@@ -1,4 +1,11 @@
 {
+  "diff_view_style": "unified",
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
   "edit_predictions": {
     "mode": "subtle",
     "provider": "codestral"
@@ -58,6 +65,7 @@
     },
   },
   "outline_panel": {
+    "dock": "right",
     "default_width": 300,
     "indent_guides": {
       "show": "always",
