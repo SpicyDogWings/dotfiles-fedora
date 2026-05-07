@@ -38,3 +38,11 @@ description = "Editor de terminal"
 manager = "dnf"
 package_name = "helix"
 binary_name = "hx"
+
+[[profiles.packages]]
+name = "lazyssh"
+description = "Administrador de claves ssh en terminal"
+manager = "custom"
+binary_name = "lazyssh"
+install_command = "lazyssh"
+existence_check = "which lazyssh"
