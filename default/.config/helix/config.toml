@@ -1,4 +1,4 @@
-theme = "carbon"
+theme = "autumn"
 
 [editor]
 shell = ["fish", "-c"]
