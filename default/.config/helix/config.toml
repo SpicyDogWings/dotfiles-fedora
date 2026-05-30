@@ -1,4 +1,4 @@
-theme = "autumn"
+theme = "base16_transparent"
 
 [editor]
 shell = ["fish", "-c"]
