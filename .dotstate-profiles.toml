@@ -47,3 +47,10 @@ manager = "custom"
 binary_name = "lazyssh"
 install_command = "./package-scripts/lazyssh.sh"
 existence_check = "which lazyssh"
+
+[[profiles.packages]]
+name = "pandora"
+description = "Un toolkit para realizar scripts iteractivos"
+manager = "cargo"
+package_name = "pandora-kit"
+binary_name = "pandora"
