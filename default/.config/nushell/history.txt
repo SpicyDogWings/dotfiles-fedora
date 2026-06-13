@@ -185,3 +185,310 @@ ls ~/.cargo/bin/ | where name =~ "dot"
 cargo binstall dotstate --force
 clear
 dotstate
+ls ~/.bun/bin/
+herdr
+curl -fsSL https://herdr.dev/install.sh | sh
+herdr
+fresh
+clear
+ls
+clear
+hx
+source ~/.config/nushell/config.nu
+herdr
+clear
+ls
+ls ~/.local/bin/
+ls ~/.local/bin/ | where name =~ "herdr"
+vibe
+exit
+hx .
+exit
+cd
+clear
+ls
+cd Documents/
+ls
+cd canary/
+ls
+cd hefesto/
+clear
+ls
+clear
+opencode
+clear
+opencode
+exit
+clear
+exit
+herdr
+clear
+ls
+ls
+cd Documents/canary/hefesto/
+ls
+opencode
+herdr
+opencode
+ls ~/.local/bin/ | where name =~ "opencode"
+witfh opencode
+bash
+ls
+cd .config/nushell/
+ls
+hx env.nu
+source ~/.config/nushell/config.nu
+openocde
+opencode
+exit
+opencode
+clear
+hx .config/nushell/env.nu
+exit
+opencode
+exit
+cd Documents/canary/hefesto/
+ls
+cd Documents/canary/hefesto/
+ls
+cargo run
+cargo run -p pandora -h
+cargo run -p pandora -- -h
+cargo run -p pandora select -h
+cargo run -p pandora select hola adios
+clear
+ls
+hx
+clear
+ls
+nvim
+clear
+cargo run -p pandora select hola adios
+clear
+cargo run -p pandora select hola adios
+clear
+cargo run -p pandora select hola adios
+cargo run -p pandora select -m hola adios
+clear
+cargo run -p pandora select -m hola adios
+hx
+cargo run -p pandora select -m hola adios
+cargo run -p pandora confirm
+cargo run -p pandora select -m hola adios
+cargo run -p pandora confirm
+cargo run -p pandora select -m hola adios
+cargo run -p pandora confirm
+cargo run -p pandora select -m hola adios
+celar
+clear
+celar
+cargo run -p pandora select -m hola adios
+clear
+cargo run -p pandora select -m hola adios
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma
+cargo run -p pandora select hola adios ajajajaj esto es una broma
+clear
+cargo run -p pandora select hola adios ajajajaj esto es una broma
+cargo run -p pandora select hola adios ajajajaj esto es una broma fdksajf fdskjfk;as fsdjf sdajfsk fsjfsjf;saj f;dsjaf; aj fsajfsajfksdjafjasfjsd fsajfsajf;sjaf ja;jf saf;sa fsjfjsa
+clear
+cargo run -p pandora select hola adios ajajajaj esto es una broma fdksajf fdskjfk;as fsdjf sdajfsk fsjfsjf;saj f;dsjaf; aj fsajfsajfksdjafjasfjsd fsajfsajf;sjaf ja;jf saf;sa fsjfjsa
+cargo run -p pandora select hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa
+cargo run -p pandora select hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa
+cargo run -p pandora select hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+clear
+ls
+clear
+ls
+cargo run -p pandora select hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+clear
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+clear
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+clear
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+clear
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+clear
+exit
+ls
+clear
+cd Documents/canary/hefesto/
+ls
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+exit
+cd Documents/canary/hefesto/
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+cd Documents/canary/hefesto/
+ls
+exit
+cd Documents/canary/hefesto/
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+lazygit
+clear
+cargo run -p pandora select -m hola adios ajajajaj esto es una broma fdksajf fdskjfk ffldsa fdsajhf f dsahfjs fslfhd lhfl afldsa fsafhdlasf dashfsdfa fkdjsf fjsdf safs ñfasfjsdfsa ñfsjfasfasfsjakfsj fsajf safjsafjsajf sakjfsa fkjsañfjsafñsa fkdjsf sfs fsjfksjfsajfs fsfs fsjafjs fsjafsjfdsja fsafsafsjafñs afsajfñsajfsaj fñsafs dfñas fjdsfsñaf sdfsj fsajfsafsafñsda
+clea
+rlcear
+clear
+cargo run -p pandora select -h
+eval "servers=($(pandora select -m server1 server2 server3 server4 server5 -t "Elige servidores"))"<\n>for s in "${servers[@]}"; do<\n>    echo "Desplegando en $s..."<\n>done
+pandora select -m rojo verde azul amarillo naranja -t "Colores" > colores.txt
+ls
+./install.sh
+clear
+./install.sh
+pandora select -m rojo verde azul amarillo naranja -t "Colores" > colores.txt
+bash
+clear
+ls
+bash
+clear
+pandora select -m rojo verde azul amarillo naranja
+clear
+pandora select -m rojo verde azul amarillo naranja
+./install.sh
+cargo run -p pandora select azul rojo amarillo
+clear
+exit
+cargo run -p pandora select -m azul roje verde
+exit
+ls
+clear
+cd Documents/canary/hefesto/
+ls
+lazygit
+herdr
+ls
+celar
+clear
+omp
+clear
+ls
+clear
+ls
+bash
+exit
+opencode
+celar
+source ~/.config/nushell/config.nu
+clear
+ls
+omp
+clear
+exit
+omp
+omp update
+omp
+clear
+ls
+clear
+ls
+./pandora-v0.2.7-alpha-x86_64-unknown-linux-gnu
+clear
+ls
+sudo chmod +x ./pandora-v0.2.7-alpha-x86_64-unknown-linux-gnu
+clear
+ls
+./pandora-v0.2.7-alpha-x86_64-unknown-linux-gnu
+ls
+git remote get-url origin
+git remote set-url origin https://oauth2:glpat-z-ycZmDCkur71LvVyL0aJmM6MQpvOjEKdTpuYmNrZQ8.01.1708hkjpc@gitlab.com/SpicyDogWings/hefesto.git
+clear
+celar
+ls
+rm -r pandora-v0.2.7-alpha-x86_64-unknown-linux-gnu
+chmod +x pandora
+./pandora
+celar
+clear
+ls
+./pandora
+ls
+rm -r install.nu
+clear
+ls
+rm pandora
+clear
+ls
+pandora
+clear
+ls
+clear
+rm ~/.local/bin/pandora
+ls
+celar
+clear
+cd ../Documents/canary/hefesto/
+ls
+clear
+ls
+curl -fsSL https://gitlab.com/SpicyDogWings/hefesto/-/raw/main/install.sh | bash<\n>
+clear
+ls
+cd
+cd Downloads
+ls
+curl -fsSL https://gitlab.com/SpicyDogWings/hefesto/-/raw/main/install.sh | bash<\n>
+celar
+clear
+ls
+celar
+clear
+curl -fsSL https://gitlab.com/SpicyDogWings/hefesto/-/raw/main/install.sh | bash<\n>
+clear
+pandora -h
+clear
+exit
+exit
+clear
+ls
+pandora -h
+pandora update
+curl -fsSL https://gitlab.com/SpicyDogWings/hefesto/-/raw/main/install.sh | bash<\n>
+clear
+pandora update
+curl -fsSL https://gitlab.com/SpicyDogWings/hefesto/-/raw/main/install.sh | bash<\n>
+pandora update
+clear
+ls
+pandora menu
+pandora menu -h
+exit
+git add -A and git commit -m "bump pandora to v0.2.9"
+git add -A; git commit -m "bump pandora to v0.2.9"
+git tag v0.2.9
+git push origin main --tags
+pandora update
+clear
+podman update
+pandora update
+pandora -V
+pandora update
+pandora -V
+git pull --rebase origin main
+cargo login
+cargo publish -p hefesto-widgets
+clear
+cargo publish -p hefesto-widgets
+clear
+cargo publish -p hefesto-widgets
+clear
+cargo publish -p hefesto-widgets
+cargo publish -p pandora
+clear
+ls
+clear
+rm ~/.local/bin/pandora
+ls
+pandora
+exit
+cargo binstall pandora-kit
+clear
+pandora
+clear
+pandora update
+clear
+ls
+pandora update
+clear
+pandora update

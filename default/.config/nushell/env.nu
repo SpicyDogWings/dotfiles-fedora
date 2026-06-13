@@ -106,7 +106,10 @@ $env.NU_PLUGIN_DIRS = [
 # Custom Configs
 # ---------------
  
+$env.Path = ($env.Path | append '~/.local/bin')
 $env.Path = ($env.Path | append '~/.cargo/bin')
+$env.Path = ($env.Path | append '~/.opencode/bin')
+$env.Path = ($env.Path | append '~/.bun/bin')
 
 # Agregar una ruta al PATH (persistente)
 #$env.PATH = ($env.PATH | split row ':' | append "/ruta/a/agregar" | join ':')

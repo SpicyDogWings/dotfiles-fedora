@@ -1,4 +1,5 @@
 {
+  "cli_default_open_behavior": "existing_window",
   "context_servers": {
     "postgres-context-server": {
       "enabled": true,
@@ -13,7 +14,7 @@
   },
   "diff_view_style": "unified",
   "collaboration_panel": {
-    "dock": "left"
+    "dock": "right"
   },
   "git_panel": {
     "dock": "right"
