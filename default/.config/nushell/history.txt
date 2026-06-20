@@ -492,3 +492,130 @@ ls
 pandora update
 clear
 pandora update
+dotstate
+exit
+omp
+omp update
+pandora update
+pan
+clear
+pan
+rm ~/.local/bin/pandora
+rm ~/.cargo/bin/pandora
+clear
+pan update
+pan 
+pan menu
+cargo run -p pan menu
+cargo run -p pandora menu
+cargo run --bin pan menu
+cargo run -p pandora-kit menu
+cargo run -p pandora-kit menu menu menu/hola menu/hola2
+clear
+cargo publish -p pandora-kit
+pan update
+ls
+clear
+ls
+clear
+ls
+curl -fsSL https://get.jetify.com/devbox | bash
+devbox
+clear
+devbox
+devbox init
+clear
+ls
+devbox
+devbox shell
+exit
+devbox shell
+clear
+ls
+devbox -h
+devbox list
+devbox add php
+refresh
+eval "$(devbox shellenv --preserve-path-stack -c "/home/spicydogwings/Documents/canary/london")" && hash -r
+eval "$(devbox shellenv --preserve-path-stack -c "/home/spicydogwings/Documents/canary/london")"; hash -r
+eval "$(devbox shellenv --preserve-path-stack -c "/home/spicydogwings/Documents/canary/london")" and hash -r
+exit
+devbox shell
+ls
+celar
+clear
+php -v
+clear
+cargo
+clear
+ls
+devbox list
+devbox add cargo
+devbox list
+cargo -h
+pan
+clear
+exit
+cd ..
+devbox shell
+devbox list
+ls
+cd london/
+ls
+devbox list
+clear
+ls
+clear
+devbox add postgresql@latest
+devbox info postgresql
+initdb
+exit
+devbox shell
+initdb
+psql
+psql -h
+psql --help
+devbox add git
+exit
+devbox add php@7.4.29
+devbox
+ls
+rm devbox.d/ devbox.json devbox.lock
+ls
+rm -r devbox.d/
+ls
+devbox
+devbox add
+devbox shell
+exit
+ls
+pan
+pan file
+pan
+pan file
+clear
+exit
+pnpm dev
+pnpm run dev
+exit
+ls
+pnpm run dev
+exit
+clear
+ls
+cd Documents/
+ls
+cd canary/
+ls
+cd siciun/
+ls
+pnpm run dev
+clear
+ls
+clear
+ls
+node -v
+pnpm -v
+celar
+ls
+clear
