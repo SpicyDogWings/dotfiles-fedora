@@ -623,3 +623,523 @@ dotstate
 clear
 ls
 sudo dnf update
+dotstate
+clear
+ls
+cd
+clear
+ls
+clear
+ls
+hx
+clear
+ls
+cd Documents/
+ls
+cd canary/
+ls
+cd hefesto/
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+celar
+clear
+ls
+cd Documents/
+ls
+cd canary/
+ls
+cd hefesto/
+ls
+cd ..
+clear
+ls
+clear
+ls
+cd hefesto/
+ls
+cd hefesto-widgets/
+ls
+clear
+ls
+cd Documents/
+ls
+cd canary/
+ls
+clear
+ls
+clear
+ls
+clear
+git clone https://oauth2:glpat-XXXFXEesDZATc_u6EA83qGM6MQpvOjEKdTpuaGt4MA8.01.1700ovx2l@gitlab.com/SpicyDogWings/quiron.git
+clear
+ls
+cd quiron/
+ls
+clear
+ls
+exit
+cd /home/spicydogwings/Documents/canary/quiron
+ls
+exit
+exit
+opencode
+cd /home/spicydogwings/Documents/canary/quiron
+ls
+exit
+celar
+exit
+lazygit
+celar
+cd /home/spicydogwings/Documents/canary/quiron
+ls
+sudo dnf update
+sudo dnf remove chzmoi
+sudo dnf remove chezmoi
+clear
+ls
+cd 
+cd Documents/
+ls
+cd canary/
+ls
+cd
+cd /home/spicydogwings/Documents/canary/quiron
+ls
+lazygit
+cd /home/spicydogwings/Documents/canary/quiron
+ls
+cd /home/spicydogwings/Documents/canary/quiron
+hx
+ze
+exit
+zellij
+clear
+ls
+cd /home/spicydogwings/Documents/canary
+ls
+cd quiron/
+ls
+cd /home/spicydogwings/Documents/canary
+ls
+cd /home/spicydogwings/Documents/canary
+ls
+git clone https://oauth2:glpat-FmzGuMX7e2XdBVSwXQWiGmM6MQpvOjEKdTpuaHFibg8.01.170vo8xq4@gitlab.com/SpicyDogWings/hefesto-widget.git
+ls
+cd hefesto-widget/
+clear
+cd /home/spicydogwings/Documents/canary/hefesto-widget
+lazygi
+cargo test
+cd /home/spicydogwings/Documents/canary/hefesto-widget/src
+cargo test
+cargo run examples
+cargo run -- examples
+cargo run --examples
+cargo run --example
+cargo run --example popup_view
+cargo run --example popup_view 1
+clar
+clear
+cargo run --example popup_view 1
+cargo run --example popup_view --lst
+cargo run --example popup_view --list
+cargo run --example popup_view -- --list
+cargo run --example popup_view 3
+clear
+cargo test render
+cargo test width
+cargo test width -- --nocapture
+cargo test test_resolve_rect_width_auto_uses_80_pct -- --nocapture
+cargo test width -- --nocapture
+clear
+cargo test width -- --nocapture
+clear
+ls
+cd /home/spicydogwings/Documents/canary/hefesto-widget/src
+cargo test width -- --nocapture
+clear
+cargo test width -- --nocapture
+cargo test width -- --nocapture --test-threads=1
+clear
+cargo test width -- --nocapture --test-threads=1
+clear
+cargo test width -- --nocapture --test-threads=1
+cargo test width
+cargo test width -- --nocapture --test-threads=1
+cargo test
+clear
+ls
+cd Documents/
+ls
+cd canary/
+ls
+cd hefesto-widget/
+ls
+clear
+cd /home/spicydogwings/Documents/canary/hefesto-widget
+ls
+clear
+ls
+cargo test
+opencode
+clear
+cd /home/spicydogwings/Documents/canary/hefesto-widget/src/popup
+ls
+cargo test
+clear
+cd ..
+ls
+cargo test
+ls
+cd popup/l
+cd popup/
+ls
+cd snapshots/
+ls
+cat hefesto_widgets__popup__tests__border_double.snap
+cargo run
+clear
+cargo test
+clear
+exit
+cd /home/spicydogwings/Documents/canary/hefesto-widget
+cargo test
+clear
+ls
+cargo test
+clear
+cargo test
+clear
+cargo test
+clear
+ls
+exit
+opencode
+exit
+clear
+ls
+clear
+git remote set-url origin https://oauth2:glpat-3Xj9-bYLzqKsGgjQAWg0PWM6MQpvOjEKdTpubTJ1bQ8.01.1712xkbsd@gitlab.com/SpicyDogWings/quiron.git
+clear
+./quiron --install
+clear
+quiron
+clear
+ls 
+clear
+ls
+cd docs/
+ls
+cd quiron-audit/
+clear
+quiron
+clear
+ls
+clear
+ls
+quiron
+clear
+quiron
+exit
+clear
+quiron
+cd docs/
+ls
+cd quiron-audit/
+ls
+quiron
+exit
+pan
+clear
+pan update
+./quiron --install
+exit
+quiron
+cd ../quiron-audit/
+quiron
+opencode
+cargo test
+clear
+cargo test
+quiron -g
+cd ../quiron-skill/
+ls
+./quiron --install
+./../../quiron --install
+celar
+ls
+clear
+quiron -g
+opencode
+cargo test
+clear
+ls
+cargo test
+quiron
+opencode
+clear
+ls
+ls -la
+cargo test
+cargo test
+ollama
+clear
+exit
+celar
+clear
+./quiron --install
+quiron
+clear
+clear
+quiron
+clear
+quiron
+clear
+quiron
+./quiron --install
+quiron
+celar
+ls
+celar
+ls
+clear
+ls
+cd docs/
+ls
+cd skills/
+ls
+quiron
+cargo test
+pan choose hola adios
+celar
+clear
+pan choose -g
+pan choose -h
+pan choose hola adios
+pan update
+pan choose hola adios
+pan filter hola adios
+pan filter -h
+pan filter hola adios
+clear
+pan filter hola adios
+reboot
+clear
+ls
+ollama
+ollama uninstall
+clear
+ollama -h
+ollama rm
+ollama list
+ollamaollama run gemma3:1b
+ollama run gemma3:1b
+ollama
+clear
+ls
+ollama run gemma3:1b
+ollama -h
+ollama list
+exit
+opencode
+ollama
+clear
+ollama
+lear
+clear
+ls
+exit
+cargo test
+cargo run -- choose
+cargo run -- choose hola
+cargo run -- choose hola adios
+cargo yank --vers 0.2.6
+cargo doc
+cargo publish -p pandora-kit
+cargo build
+pan update
+clear
+ls
+clear
+ls
+quiron
+pan update
+cargo run -- choose hola adios
+ls
+cargo run -- choose hola adios
+exit
+sudo su
+clear
+cargo run -- spin "apt update"
+ls
+cd Documents/ls
+cd Documents/
+ls
+cd canary/
+ls
+cd hefesto/
+ls
+cd pandora/
+ls
+cargo run -- spin "apt update"
+cargo run -- spin apt update
+cargo run -- spin -h
+cargo run -- spin -c apt update
+cargo run -- spin -c "apt update"
+cargo run -- spin -v -c "sudo dnf update"
+sudo dnf update
+clear
+ls
+pan choose hola adios
+cargo update
+cargo doc
+cargo publish
+cargo doc
+cargo publish
+cargo publish -p pandora-kit
+git status
+cargo publish -p pandora-kit
+pandora update
+pan update
+clear
+ls
+quiron
+clear
+pan udpate
+pan update
+clear
+pan update
+quiron
+clear
+ls
+pan choose hola adios
+clear
+ls
+git fetch
+git pull
+clear
+pan choose hola adios
+./quiron --install
+clear
+quiron
+pan -v
+pan --version
+git remote get-url origin
+git init
+git remote add origin https:oauth2:glpat-PpmyeUAniuSGIRWpgJV8jmM6MQpvOjEKdTpucDRmNA8.01.171kv3v2e@//gitlab.com/SpicyDogWings/pandora.git
+git push
+git push --set-upstream origin main
+git remote get-url origin
+git remote set-url origin https://oauth2:glpat-PpmyeUAniuSGIRWpgJV8jmM6MQpvOjEKdTpucDRmNA8.01.171kv3v2e@gitlab.com/SpicyDogWings/quiron.git
+git remote get-url origin
+git push --set-upstream origin main
+git remote set-url origin https://oauth2:glpat-PpmyeUAniuSGIRWpgJV8jmM6MQpvOjEKdTpucDRmNA8.01.171kv3v2e@gitlab.com/SpicyDogWings/quiron.git
+git push
+git push --set-upstream origin main
+ls
+git remote set-url origin https://oauth2:glpat-PpmyeUAniuSGIRWpgJV8jmM6MQpvOjEKdTpucDRmNA8.01.171kv3v2e@gitlab.com/SpicyDogWings/pandora.git
+git push --set-upstream origin main
+git clone https://oauth2:glpat-gwy6IhNosBy2vbC4Y3p68GM6MQpvOjEKdTpucDRocw8.01.170ivzkyc@gitlab.com/SpicyDogWings/pandora-kit.git
+ls
+exit
+exit
+git status
+exit
+pan --version
+pan update
+cargo docs
+cargo test
+cargo doc
+pandora update
+clear
+cargo publish
+pan update
+pan choose hola adios
+clear
+ls
+pan choose hola adios
+pan choose -t "Saluda o despidete" hola adios
+clear
+ls
+quiron
+ls
+./publish.sh
+clear
+pan menu /tmp/test-menu.txt
+clear
+ls
+pan menu /tmp/test-menu.txt
+cargo build
+cargo run -- /tmp/test-menu.txt
+cargo run /tmp/test-menu.txt
+cargo run -- menu/tmp/test-menu.txt
+cargo run -- menu /tmp/test-menu.txt
+clear
+cargo run -- menu /tmp/test-menu.txt
+clear
+cargo run -- menu /tmp/test-menu.txt
+clear
+cargo run -- menu /tmp/test-menu.txt
+}
+cargo run -- menu /tmp/test-menu.txt
+clear
+cargo run -- menu /tmp/test-menu.txt
+clear
+ls
+./publish.sh
+clear
+ls
+cargo doc
+cargo test
+cargo publish
+exit
+clear
+pan
+clear
+pan
+pan choose -t "Saluda o despidete" hola adios
+clear
+y
+yazi
+clear
+ls
+clear
+exit
+clear
+exit
+clear
+ls
+clear
+ls
+y
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ln -s hefesto-widget /home/spicydogwings/Documents/canary/crates/hefesto-widget
+ls
+clear
+ln -s /home/spicydogwings/Documents/canary/crates/hefesto-widget hefesto-widget
+clear
+ls
+neovim
+nvim
+neovide
+clear
+le
+clear
+ls
+^neovide o> /dev/null e> /dev/null &
+exit
+yazi
+exit
+opencode
+exit
+clear
+ls
+clear
+ls
+yazi
