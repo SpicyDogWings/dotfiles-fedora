@@ -905,10 +905,11 @@ $env.config = {
 # ---------------
 
 # Editor default
-$env.config.buffer_editor = 'fresh'
+$env.config.buffer_editor = 'hx'
 
 # Starship config
  def prompt [] {
     starship prompt
 }
+
 

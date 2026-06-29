@@ -1143,3 +1143,17 @@ ls
 clear
 ls
 yazi
+dotstate
+clear
+ls
+cd .config/nushell/
+ls
+neovide | ignore
+clear
+ls
+hx config.nu
+clear
+opencode
+exit
+clear
+ls
