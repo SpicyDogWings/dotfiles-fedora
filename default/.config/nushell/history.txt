@@ -1157,3 +1157,71 @@ opencode
 exit
 clear
 ls
+dotstate
+clear
+y
+clear
+yazi
+cd ~/Documents/canary/pandora-kit/
+clear
+ls
+clear
+ls
+cd hefesto-widget/
+ls
+yazi
+exit
+clear
+ls
+exit
+hc
+exit
+clear
+ls
+cargo test
+cargo build
+exit
+clear
+ls
+cargo run -- menu /tmp/test-menu.txt
+cargo run -- menu /tmp/ejemplo_menu.txt
+clear
+opencode
+clear
+cargo run -- menu /tmp/ejemplo_menu.txt
+clear
+ls
+cargo run -- menu /tmp/ejemplo_menu.txt
+cargo run -- choose hola adios
+cat /tmp/ejemplo_menu.txt
+clear
+cargo test
+cargo run -- choose hola adios
+cargo run -- menu /tmp/ejemplo_menu.txt
+clear
+ls
+cd src/
+ls
+cd snapshots/
+ls
+clear
+yaxi
+cargo run -- menu /tmp/ejemplo_menu.txt
+clear
+ls
+clear
+exit
+clear
+cargo run -- menu /tmp/ejemplo_menu.txt
+clear
+cargo run -- menu /tmp/ejemplo_menu.txt
+cargo run -- menu /tmp/ejemplo_menu.txtg
+cargo run -- menu /tmp/ejemplo_menu.txt
+clear
+ls
+cat ./src/menu/snapshots/fixture_menu_archivo_expanded.snap
+cat ./src/menu/snapshots/fixture_menu_collapsed.snap
+cargo run -- menu /tmp/ejemplo_menu.txt
+zellij
+exit
+clear
