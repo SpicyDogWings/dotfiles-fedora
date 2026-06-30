@@ -1227,3 +1227,78 @@ exit
 clear
 dotstate
 clear
+dotstate
+celar
+clear
+exit
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+cargo run -- menu /tmp/ejemplo_menu.txt
+cargo run -- menu ./src/menu/fixtures/ejemplo_menu.txt
+clear
+ls
+clear
+ls
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+exit
+clear
+ls
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+clear
+ls
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+ls
+cargo test
+cargo build
+clear
+hx
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+hc
+cargo test
+cargo doc
+cargo build
+clear
+cargo test
+cargo doc
+cargo build
+clear
+cargo publish
+exit
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+ls
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+clear
+clear
+cargo test
+cargo doc
+cargo build
+cargo test
+cargo doc
+cargo build
+cargo publish
+pandora update
+pan update
+clear
+ls
+./publish.sh
+ls
+cd /home/spicydogwings/Documents/canary/quiron
+ls
+clear
+quiron
+clear
+ls
+clear
+exit
+cd /home/spicydogwings/Documents/canary/quiron
+ls
+clear
+ls
+clear
+dotstae
