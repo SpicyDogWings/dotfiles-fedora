@@ -11,6 +11,7 @@ synced_files = [
     ".config/ghostty",
     ".config/helix",
     ".config/niri",
+    ".config/noctalia",
     ".config/nushell",
     ".config/starship.toml",
     ".config/yazi",

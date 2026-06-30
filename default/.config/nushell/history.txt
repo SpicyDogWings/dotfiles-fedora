@@ -1225,3 +1225,5 @@ cargo run -- menu /tmp/ejemplo_menu.txt
 zellij
 exit
 clear
+dotstate
+clear
