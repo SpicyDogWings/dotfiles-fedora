@@ -1419,3 +1419,28 @@ clear
 ls
 clear
 dotstet
+dotstate
+clear
+cd ~/.config/alacritty/
+ls
+ls themes/
+ls
+clear
+ls
+cd themes/
+ls
+./print_colors.sh
+ls
+cd themes/
+ls
+clear
+cd ..
+ls
+cd ..
+ls
+clear
+hx alacritty.toml
+clear
+ls
+clear
+cd
