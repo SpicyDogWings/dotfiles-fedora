@@ -1302,3 +1302,120 @@ clear
 ls
 clear
 dotstae
+dotstate
+clear
+quiron
+clear
+quiron
+clear
+dotstate
+clear
+ls
+y
+clear
+ls
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+lazygi
+lazygit
+cellar
+clear
+ls
+clear
+cargo doc
+cargo test
+cargo build
+clear
+lazygit
+./publish.sh
+pan -v
+pan --version
+pan update
+clear
+pan
+celar
+clear
+pan update
+cear
+clear
+./publish.sh
+clear
+ls
+clear
+exit
+yazi
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+ls
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget/.audit
+lazygit
+exit
+clear
+ls
+cd Documents/
+ls
+cd canary/
+ls
+ca pandora-kit/
+ls
+cd crates/
+ls
+cd hefesto-widget/
+ls
+clear
+ls
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+clear
+cargo run choose hola adios
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+cargo run choose hola adios
+cd /home/spicydogwings/Documents/canary/pandora-kit
+cargo build
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+ls
+clear
+ls
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+ls
+lazygit
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+lazygiy
+clear
+ls
+./publish.sh
+clear
+ls
+./publish.sh
+clear
+ls
+clear
+ls
+clear
+ls
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+clear
+ls
+cargo test
+cargo build
+cargo doc
+cargo test; cargo build; cargo doc; cargo publish
+cd /home/spicydogwings/Documents/canary/pandora-kit/hefesto-widget
+ls
+clear
+ls
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+cargo test; cargo build; cargo doc
+./publish.sh
+clear
+ls
+clear
+dotstet
