@@ -2098,3 +2098,76 @@ clear
 herdr
 clear
 herdr update
+dotstate
+clear
+exit
+herdr
+ls
+exit
+clear
+lw
+clear
+ls
+ls -la
+clear
+ls
+clear
+ls
+cd Documents/canary/patroclo/
+ls
+celar
+clear
+cd Documents/canary/patroclo/
+ls
+clear
+opencode
+clear
+celar
+ls
+clear
+ls
+clear
+ls
+clear
+exit
+clear
+ls
+ls -la
+clear
+ls 
+ls
+<\n>❯ ls<\n>╭───┬──────────────┬──────┬──────────┬─────────────╮<\n>│ # │     name     │ type │   size   │  modified   │<\n>├───┼──────────────┼──────┼──────────┼─────────────┤<\n>│ 0 │ docs         │ dir  │     12 B │ 2 days ago  │<\n>│ 1 │ mkdesktop.sh │ file │  5.6 KiB │ 2 days ago  │<\n>│ 2 │ morias       │ file │ 61.7 KiB │ 2 days ago  │<\n>│ 3 │ octo         │ file │ 45.4 KiB │ 2 hours ago │<\n>╰───┴──────────────┴──────┴──────────┴─────────────╯
+clear
+ls
+clear
+ls
+exit
+opencode
+clear
+herdr
+exit
+zellij
+clear
+ls
+cd
+clear
+ls
+celar
+lear
+clear
+ls
+cd .config/
+ls
+clear
+ls
+ls | where name =~ herdr
+cd herdr
+ls
+clear
+ls
+clear
+ls
+hx config.toml
+herdr
+exit
+clear

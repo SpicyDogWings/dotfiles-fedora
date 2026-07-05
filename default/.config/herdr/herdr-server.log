@@ -1,0 +1,610 @@
+2026-06-11T00:30:00.366399Z  INFO herdr::api::server: api server listening path=/home/spicydogwings/.config/herdr/herdr.sock
+2026-06-11T00:30:00.366945Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-06-11T00:30:00.389005Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-06-11T00:30:00.389033Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T00:30:00.389792Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=12919
+2026-06-11T00:30:00.389941Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef75e365011" pane_id=1
+2026-06-11T00:30:00.389948Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef75e365011"
+2026-06-11T00:30:00.389956Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef75e365011" tab_id="w653ef75e365011:1"
+2026-06-11T00:30:00.389961Z  INFO herdr::server::headless: created startup workspace cwd=/home/spicydogwings/.config/dotstate/storage/default/.config/nushell
+2026-06-11T00:30:00.390023Z  INFO herdr::server::headless: client protocol socket listening path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-06-11T00:30:00.390047Z  INFO herdr::server::headless: herdr server started api_socket=/home/spicydogwings/.config/herdr/herdr.sock client_socket=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-06-11T00:30:00.390057Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=12905
+2026-06-11T00:30:00.424781Z  INFO herdr::server::headless: client connected client_id=2 cols=79 rows=26 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-11T00:30:03.027515Z  INFO herdr::server::headless: client resize client_id=2 cols=191 rows=47 cell_width_px=0 cell_height_px=0
+2026-06-11T00:30:05.391645Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T00:35:20.946766Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 0, signal: None }"
+2026-06-11T00:35:20.947517Z  INFO herdr::pane: pane session terminated pane=1 pid=12919 signal=Hangup
+2026-06-11T00:35:20.947658Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=46 cols=165 scrollback_limit_bytes=10000000
+2026-06-11T00:35:20.948928Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=15991
+2026-06-11T00:35:20.949073Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef88febd2d2" pane_id=2
+2026-06-11T00:35:20.949079Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef88febd2d2"
+2026-06-11T00:35:20.949085Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef88febd2d2" tab_id="w653ef88febd2d2:1"
+2026-06-11T00:35:23.638961Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-06-11T00:35:23.639014Z  INFO herdr::pane: pane session terminated pane=2 pid=15991 signal=Hangup
+2026-06-11T00:35:23.639332Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=46 cols=165 scrollback_limit_bytes=10000000
+2026-06-11T00:35:23.640512Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=16031
+2026-06-11T00:35:23.640617Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef8927cf153" pane_id=3
+2026-06-11T00:35:23.640627Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef8927cf153"
+2026-06-11T00:35:23.640645Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef8927cf153" tab_id="w653ef8927cf153:1"
+2026-06-11T00:35:24.738666Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-06-11T00:35:24.738727Z  INFO herdr::pane: pane session terminated pane=3 pid=16031 signal=Hangup
+2026-06-11T00:35:24.738979Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=46 cols=165 scrollback_limit_bytes=10000000
+2026-06-11T00:35:24.740118Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=16066
+2026-06-11T00:35:24.740232Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef8938966e4" pane_id=4
+2026-06-11T00:35:24.740238Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef8938966e4"
+2026-06-11T00:35:24.740246Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef8938966e4" tab_id="w653ef8938966e4:1"
+2026-06-11T00:35:29.751780Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T00:35:30.619062Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-06-11T00:35:30.619185Z  INFO herdr::pane: pane session terminated pane=4 pid=16066 signal=Hangup
+2026-06-11T00:35:30.619414Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=46 cols=165 scrollback_limit_bytes=10000000
+2026-06-11T00:35:30.620206Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=16220
+2026-06-11T00:35:30.620374Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef89924fb15" pane_id=5
+2026-06-11T00:35:30.620382Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef89924fb15"
+2026-06-11T00:35:30.620388Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef89924fb15" tab_id="w653ef89924fb15:1"
+2026-06-11T00:35:35.621794Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T00:35:41.903192Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef89924fb15" tab_id="w653ef89924fb15:1"
+2026-06-11T00:35:46.904651Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T00:36:04.957367Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=46 cols=165 scrollback_limit_bytes=10000000
+2026-06-11T00:36:04.958222Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=16373
+2026-06-11T00:36:04.958344Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef8b9e44666" pane_id=6
+2026-06-11T00:36:04.958349Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef8b9e44666"
+2026-06-11T00:36:04.958356Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef8b9e44666" tab_id="w653ef8b9e44666:1"
+2026-06-11T00:36:09.962179Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-06-11T00:36:28.223689Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef8b9e44666"
+2026-06-11T00:36:28.223716Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef8b9e44666" tab_id="w653ef8b9e44666:1"
+2026-06-11T00:36:30.315651Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w653ef8b9e44666"
+2026-06-11T00:36:31.503599Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef89924fb15"
+2026-06-11T00:36:31.503625Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef89924fb15" tab_id="w653ef89924fb15:1"
+2026-06-11T00:36:33.043841Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w653ef89924fb15"
+2026-06-11T00:36:33.043927Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=46 cols=165 scrollback_limit_bytes=10000000
+2026-06-11T00:36:33.044754Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=16470
+2026-06-11T00:36:33.044861Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef8d4ad55e7" pane_id=7
+2026-06-11T00:36:33.044866Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef8d4ad55e7"
+2026-06-11T00:36:33.044874Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef8d4ad55e7" tab_id="w653ef8d4ad55e7:1"
+2026-06-11T00:36:33.601988Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-11T00:36:33.604277Z  INFO herdr::pane: pane session terminated pane=6 pid=16373 signal=Hangup
+2026-06-11T00:36:33.605308Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-11T00:36:33.607206Z  INFO herdr::pane: pane session terminated pane=5 pid=16220 signal=Hangup
+2026-06-11T00:36:33.607738Z  WARN herdr::app::actions: PaneDied for unknown pane pane=6
+2026-06-11T00:36:33.607748Z  WARN herdr::app::actions: PaneDied for unknown pane pane=5
+2026-06-11T00:36:39.353853Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef8d4ad55e7" tab_id="w653ef8d4ad55e7:1"
+2026-06-11T00:36:39.353877Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w653ef8d4ad55e7"
+2026-06-11T00:36:39.353936Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=46 cols=165 scrollback_limit_bytes=10000000
+2026-06-11T00:36:39.354716Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=16518
+2026-06-11T00:36:39.354804Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef8dab1da28" pane_id=8
+2026-06-11T00:36:39.354809Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef8dab1da28"
+2026-06-11T00:36:39.354814Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef8dab1da28" tab_id="w653ef8dab1da28:1"
+2026-06-11T00:36:39.910636Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-06-11T00:36:39.911867Z  INFO herdr::pane: pane session terminated pane=7 pid=16470 signal=Hangup
+2026-06-11T00:36:39.911993Z  WARN herdr::app::actions: PaneDied for unknown pane pane=7
+2026-06-11T00:36:48.386995Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T00:36:48.651491Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-06-11T00:37:00.454840Z  INFO herdr::server::headless: client connected client_id=4 cols=191 rows=47 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-11T00:37:05.462105Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef8dab1da28" tab_id="w653ef8dab1da28:1"
+2026-06-11T00:37:05.462172Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=23 cols=82 scrollback_limit_bytes=10000000
+2026-06-11T00:37:05.462929Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=16846
+2026-06-11T00:37:07.557129Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=9 status="ExitStatus { code: 0, signal: None }"
+2026-06-11T00:37:07.557890Z  INFO herdr::pane: pane session terminated pane=9 pid=16846 signal=Hangup
+2026-06-11T00:37:12.559918Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T00:37:17.958409Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-06-11T00:37:17.959082Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-06-11T00:37:19.071898Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T00:37:20.578567Z  INFO herdr::server::headless: client connected client_id=6 cols=191 rows=47 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-11T00:37:28.250457Z  INFO herdr::server::headless: client detach requested via keybind client_id=6
+2026-06-11T00:37:28.251173Z  INFO herdr::server::headless: client disconnected client_id=6
+2026-06-11T00:37:56.490088Z  INFO herdr::server::headless: client connected client_id=8 cols=191 rows=47 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-11T00:38:20.848820Z  INFO herdr::server::headless: client detach requested via keybind client_id=8
+2026-06-11T00:38:20.849653Z  INFO herdr::server::headless: client disconnected client_id=8
+2026-06-11T00:41:02.587750Z  INFO herdr::server::headless: client connected client_id=10 cols=79 rows=26 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-06-11T00:41:04.190157Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=47 cell_width_px=0 cell_height_px=0
+2026-06-11T00:41:09.503255Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=8 status="ExitStatus { code: 0, signal: None }"
+2026-06-11T00:41:09.503319Z  INFO herdr::pane: pane session terminated pane=8 pid=16518 signal=Hangup
+2026-06-11T00:41:09.503486Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=46 cols=170 scrollback_limit_bytes=10000000
+2026-06-11T00:41:09.504962Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=19074
+2026-06-11T00:41:09.505061Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w653ef9dc5480e9" pane_id=10
+2026-06-11T00:41:09.505067Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w653ef9dc5480e9"
+2026-06-11T00:41:09.505074Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T00:41:14.515431Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T00:41:23.115325Z  INFO herdr::pane: agent changed pane=10 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(19223)
+2026-06-11T00:44:37.280613Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T00:44:39.761659Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T00:44:44.763078Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T01:00:00.390522Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T01:45:06.275484Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=46 cols=170 scrollback_limit_bytes=10000000
+2026-06-11T01:45:06.276530Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=24678
+2026-06-11T01:45:06.276646Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T01:45:06.276655Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2" pane_id=11
+2026-06-11T01:45:11.281666Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T01:45:11.352460Z  INFO herdr::pane: agent changed pane=11 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(24782)
+2026-06-11T01:45:25.081565Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T02:07:20.391368Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T02:37:20.392325Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T02:44:22.392099Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T02:44:27.401727Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T02:50:14.853991Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T02:50:19.855569Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T02:50:50.337351Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T02:50:55.338723Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T02:51:07.212073Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T02:51:12.213495Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T02:54:27.889703Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T02:54:32.891653Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T02:58:39.433453Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=45 cell_width_px=0 cell_height_px=0
+2026-06-11T03:07:20.393459Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T03:09:49.915454Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T03:09:54.919714Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T03:12:20.460739Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T03:12:25.462036Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T03:27:10.196126Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T03:27:15.197343Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T03:28:13.987170Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T03:28:18.988135Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T03:30:11.792066Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T03:30:16.793396Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T03:37:20.394355Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T03:39:06.073762Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T03:39:11.075324Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T03:48:58.578194Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T03:49:03.579114Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:07:20.395008Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T04:08:44.722297Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:08:49.724916Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:17:03.429678Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:17:07.165541Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:17:12.167726Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:17:47.560528Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:17:52.562553Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:18:44.613263Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:18:49.615183Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:18:59.546771Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:19:04.548468Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:20:58.186428Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:21:03.188527Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:24:48.766737Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:24:53.768179Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:27:09.174393Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:27:14.176293Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:29:01.129149Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:29:03.033299Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:29:06.145377Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:29:11.147484Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:29:28.583789Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:29:33.585289Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:30:01.456162Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:30:06.457232Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:30:28.932047Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:30:33.933468Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:30:48.610459Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:30:53.612322Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:32:09.440883Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:32:14.443968Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:34:52.346891Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:34:57.348798Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:35:01.097126Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:35:06.099515Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:37:20.396953Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T04:37:32.719072Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:37:37.720378Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:39:03.175828Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:39:08.177281Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:43:39.498689Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=46 cell_width_px=0 cell_height_px=0
+2026-06-11T04:43:39.598965Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=47 cell_width_px=0 cell_height_px=0
+2026-06-11T04:43:57.719004Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=45 cell_width_px=0 cell_height_px=0
+2026-06-11T04:45:58.562946Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=47 cell_width_px=0 cell_height_px=0
+2026-06-11T04:46:06.570753Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=45 cell_width_px=0 cell_height_px=0
+2026-06-11T04:47:54.692352Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=46 cell_width_px=0 cell_height_px=0
+2026-06-11T04:47:54.792388Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=47 cell_width_px=0 cell_height_px=0
+2026-06-11T04:48:03.601440Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=45 cell_width_px=0 cell_height_px=0
+2026-06-11T04:51:19.675360Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-06-11T04:51:24.677743Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T04:57:35.153466Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-06-11T04:57:40.160954Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-06-11T05:07:20.398507Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-06-11T05:14:22.098518Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=46 cell_width_px=0 cell_height_px=0
+2026-06-11T05:14:22.198587Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=47 cell_width_px=0 cell_height_px=0
+2026-06-11T05:15:36.485420Z  INFO herdr::server::headless: client resize client_id=10 cols=191 rows=45 cell_width_px=0 cell_height_px=0
+2026-06-11T05:15:38.989118Z  INFO herdr::server::headless: client detach requested via keybind client_id=10
+2026-06-11T05:15:38.993803Z  INFO herdr::server::headless: client disconnected client_id=10
+2026-07-05T02:28:03.357063Z  INFO herdr::api::server: api server listening path=/home/spicydogwings/.config/herdr/herdr.sock
+2026-07-05T02:28:03.358010Z  WARN herdr::persist::restore: saved pane cwd does not exist, falling back to HOME cwd=/home/spicydogwings/Documents/canary/hefesto
+2026-07-05T02:28:03.358070Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-05T02:28:03.358642Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=3968
+2026-07-05T02:28:03.358732Z  WARN herdr::persist::restore: saved pane cwd does not exist, falling back to HOME cwd=/home/spicydogwings/Documents/canary/hefesto
+2026-07-05T02:28:03.358771Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-05T02:28:03.359145Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=3971
+2026-07-05T02:28:03.359269Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-07-05T02:28:03.359277Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-05T02:28:03.398227Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T02:28:03.398236Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/spicydogwings
+2026-07-05T02:28:03.398340Z  INFO herdr::server::headless: client protocol socket listening path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:28:03.398360Z  INFO herdr::server::headless: herdr server started api_socket=/home/spicydogwings/.config/herdr/herdr.sock client_socket=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:28:03.398370Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=3958
+2026-07-05T02:28:03.499889Z  INFO herdr::server::headless: client connected client_id=2 cols=80 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-05T02:28:04.020571Z  WARN herdr::detect::manifest_update: skipping unknown remote manifest agent agent="devin"
+2026-07-05T02:28:04.112292Z  INFO herdr::logging: update available event="update.available" subsystem="update" outcome="ok" version="0.7.1"
+2026-07-05T02:28:04.112311Z  INFO herdr::update: new stable build available at https://github.com/ogulcancelik/herdr/releases/download/v0.7.1/herdr-linux-x86_64
+2026-07-05T02:28:04.112402Z  INFO herdr::update: auto-update check: 0.7.1 available, waiting for explicit install
+2026-07-05T02:28:08.934563Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="omp"
+2026-07-05T02:28:08.934623Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="ok" action="install" target="opencode"
+2026-07-05T02:28:08.934627Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="kilo"
+2026-07-05T02:28:11.148338Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="kilo"
+2026-07-05T02:28:11.653403Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="kilo"
+2026-07-05T02:28:12.088537Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="kilo"
+2026-07-05T02:28:12.393387Z  INFO herdr::logging: integration action finished event="integration.action" subsystem="integration" outcome="error" action="install" target="kilo"
+2026-07-05T02:28:17.117865Z  INFO herdr::server::headless: client resize client_id=2 cols=167 rows=45 cell_width_px=0 cell_height_px=0
+2026-07-05T02:28:17.395580Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:28:49.316997Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-07-05T02:28:49.317024Z  INFO herdr::logging: tab closed event="tab.close" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:2"
+2026-07-05T02:28:50.666511Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w653ef9dc5480e9" tab_id="w653ef9dc5480e9:1"
+2026-07-05T02:28:50.666534Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w653ef9dc5480e9"
+2026-07-05T02:28:50.666590Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:28:50.667425Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=4247
+2026-07-05T02:28:50.667540Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w655d3eb13cc021" pane_id=3
+2026-07-05T02:28:50.667544Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w655d3eb13cc021"
+2026-07-05T02:28:50.667550Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w655d3eb13cc021" tab_id="w655d3eb13cc021:1"
+2026-07-05T02:28:51.223279Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T02:28:51.224157Z  INFO herdr::pane: pane session terminated pane=2 pid=3971 signal=Hangup
+2026-07-05T02:28:51.224915Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T02:28:51.225679Z  INFO herdr::pane: pane session terminated pane=1 pid=3968 signal=Hangup
+2026-07-05T02:28:51.225848Z  WARN herdr::app::actions: PaneDied for unknown pane pane=2
+2026-07-05T02:28:51.225853Z  WARN herdr::app::actions: PaneDied for unknown pane pane=1
+2026-07-05T02:28:55.671717Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:28:59.172414Z  INFO herdr::server::headless: client resize client_id=2 cols=80 rows=45 cell_width_px=0 cell_height_px=0
+2026-07-05T02:28:59.773299Z  INFO herdr::server::headless: client resize client_id=2 cols=167 rows=45 cell_width_px=0 cell_height_px=0
+2026-07-05T02:30:12.836385Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:30:12.836428Z  INFO herdr::pane: pane session terminated pane=3 pid=4247 signal=Hangup
+2026-07-05T02:30:12.836579Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:30:12.837559Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=5882
+2026-07-05T02:30:12.837711Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w655d3eff99d242" pane_id=4
+2026-07-05T02:30:12.837721Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w655d3eff99d242"
+2026-07-05T02:30:12.837738Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w655d3eff99d242" tab_id="w655d3eff99d242:1"
+2026-07-05T02:30:13.984965Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:30:13.985068Z  INFO herdr::pane: pane session terminated pane=4 pid=5882 signal=Hangup
+2026-07-05T02:30:13.985115Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:30:13.985833Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=5916
+2026-07-05T02:30:13.985928Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w655d3f00b22793" pane_id=5
+2026-07-05T02:30:13.985933Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w655d3f00b22793"
+2026-07-05T02:30:13.985937Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w655d3f00b22793" tab_id="w655d3f00b22793:1"
+2026-07-05T02:30:15.078313Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:30:15.078359Z  INFO herdr::pane: pane session terminated pane=5 pid=5916 signal=Hangup
+2026-07-05T02:30:15.078555Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:30:15.079172Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=5952
+2026-07-05T02:30:15.079261Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w655d3f01bd14d4" pane_id=6
+2026-07-05T02:30:15.079266Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w655d3f01bd14d4"
+2026-07-05T02:30:15.079271Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w655d3f01bd14d4" tab_id="w655d3f01bd14d4:1"
+2026-07-05T02:30:16.260735Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:30:16.260786Z  INFO herdr::pane: pane session terminated pane=6 pid=5952 signal=Hangup
+2026-07-05T02:30:16.260928Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:30:16.261664Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=5990
+2026-07-05T02:30:16.261755Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w655d3f02ddc675" pane_id=7
+2026-07-05T02:30:16.261761Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w655d3f02ddc675"
+2026-07-05T02:30:16.261767Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w655d3f02ddc675" tab_id="w655d3f02ddc675:1"
+2026-07-05T02:30:21.272476Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:30:34.943607Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-07-05T02:30:34.944589Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-05T02:30:40.975562Z  INFO herdr::server::headless: client connected client_id=4 cols=167 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-05T02:30:44.159598Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-07-05T02:30:44.160478Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-07-05T02:30:53.614699Z  INFO herdr::server::headless: server shutdown initiated
+2026-07-05T02:30:53.664878Z  INFO herdr::server::headless: completing server shutdown
+2026-07-05T02:30:53.665082Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:30:53.665093Z  INFO herdr::server::headless: headless server exiting
+2026-07-05T02:30:53.666172Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=7 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T02:30:53.668220Z  INFO herdr::pane: pane session terminated pane=7 pid=5990 signal=Hangup
+2026-07-05T02:30:53.668592Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="server" outcome="completed" pid=3958
+2026-07-05T02:32:34.222521Z  INFO herdr::api::server: api server listening path=/home/spicydogwings/.config/herdr/herdr.sock
+2026-07-05T02:32:34.223249Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=1 rows=24 cols=80 scrollback_limit_bytes=10000000
+2026-07-05T02:32:34.224038Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=1 pid=6701
+2026-07-05T02:32:34.224190Z  INFO herdr::logging: session restore evaluated event="persist.restore" subsystem="persist" outcome="ok" workspaces=1
+2026-07-05T02:32:34.224202Z  INFO herdr::app: using pane scrollback configuration pane_scrollback_limit_bytes=10000000
+2026-07-05T02:32:34.260328Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T02:32:34.260356Z  INFO herdr::server::headless: restored session already has workspaces; ignoring startup cwd cwd=/home/spicydogwings
+2026-07-05T02:32:34.260431Z  INFO herdr::server::headless: client protocol socket listening path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:32:34.260468Z  INFO herdr::server::headless: herdr server started api_socket=/home/spicydogwings/.config/herdr/herdr.sock client_socket=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:32:34.260480Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="server" outcome="started" pid=6691
+2026-07-05T02:32:34.362013Z  INFO herdr::server::headless: client connected client_id=2 cols=167 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-05T02:33:10.352496Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=2 rows=22 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T02:33:10.353327Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=2 pid=6851
+2026-07-05T02:33:11.864062Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=2 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:33:11.864224Z  INFO herdr::pane: pane session terminated pane=2 pid=6851 signal=Hangup
+2026-07-05T02:33:14.996423Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=3 rows=22 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T02:33:14.997186Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=3 pid=6898
+2026-07-05T02:33:16.278296Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=3 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:33:16.278362Z  INFO herdr::pane: pane session terminated pane=3 pid=6898 signal=Hangup
+2026-07-05T02:33:21.279177Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:33:39.124541Z  INFO herdr::server::headless: client detach requested via keybind client_id=2
+2026-07-05T02:33:39.125335Z  INFO herdr::server::headless: client disconnected client_id=2
+2026-07-05T02:33:41.386705Z  INFO herdr::server::headless: client connected client_id=4 cols=167 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-05T02:35:58.671323Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=4 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:35:58.672226Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=4 pid=7319
+2026-07-05T02:35:58.672359Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w1" pane_id=4
+2026-07-05T02:35:58.672365Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w1"
+2026-07-05T02:35:58.672371Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w1" tab_id="w1:t1"
+2026-07-05T02:36:01.471679Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=4 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:36:01.471759Z  INFO herdr::pane: pane session terminated pane=4 pid=7319 signal=Hangup
+2026-07-05T02:36:06.473837Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:38:04.780250Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w655d3f02ddc675"
+2026-07-05T02:38:04.780329Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=5 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:38:04.781206Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=5 pid=7742
+2026-07-05T02:38:04.781315Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w2" pane_id=5
+2026-07-05T02:38:04.781320Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-05T02:38:04.781326Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w2" tab_id="w2:t1"
+2026-07-05T02:38:05.336822Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=1 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T02:38:05.337568Z  INFO herdr::pane: pane session terminated pane=1 pid=6701 signal=Hangup
+2026-07-05T02:38:05.337803Z  WARN herdr::app::actions: PaneDied for unknown pane pane=1
+2026-07-05T02:38:09.784411Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:38:22.630571Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w2"
+2026-07-05T02:38:22.630662Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=6 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:38:22.631358Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=6 pid=7852
+2026-07-05T02:38:22.631458Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w3" pane_id=6
+2026-07-05T02:38:22.631463Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-05T02:38:22.631468Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w3" tab_id="w3:t1"
+2026-07-05T02:38:23.186315Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=5 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T02:38:23.186934Z  INFO herdr::pane: pane session terminated pane=5 pid=7742 signal=Hangup
+2026-07-05T02:38:23.187220Z  WARN herdr::app::actions: PaneDied for unknown pane pane=5
+2026-07-05T02:38:27.634125Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:39:02.932866Z  INFO herdr::logging: workspace renamed event="workspace.rename" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-05T02:39:07.934141Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:39:20.372969Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w3"
+2026-07-05T02:39:20.373057Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=7 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:39:20.373736Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=7 pid=8173
+2026-07-05T02:39:20.373847Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w4" pane_id=7
+2026-07-05T02:39:20.373852Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-07-05T02:39:20.373857Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:39:20.929715Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=6 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T02:39:20.930457Z  INFO herdr::pane: pane session terminated pane=6 pid=7852 signal=Hangup
+2026-07-05T02:39:20.930631Z  WARN herdr::app::actions: PaneDied for unknown pane pane=6
+2026-07-05T02:39:25.377607Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:39:33.969883Z  INFO herdr::logging: workspace renamed event="workspace.rename" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-07-05T02:39:38.971166Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:39:38.990099Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(8341)
+2026-07-05T02:39:42.912803Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(OpenCode) agent=None pgid=Some(8173)
+2026-07-05T02:40:36.685022Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:40:41.686417Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:40:45.608864Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(8744)
+2026-07-05T02:40:56.844997Z  INFO herdr::logging: tab renamed event="tab.rename" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:40:58.705660Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:41:03.707421Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:41:03.729458Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=8 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:41:03.730391Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=8 pid=8840
+2026-07-05T02:41:03.730481Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-07-05T02:41:03.730503Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2" pane_id=8
+2026-07-05T02:41:08.736352Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:41:16.152625Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:41:17.182467Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-07-05T02:41:22.183954Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:41:35.583722Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:41:40.585262Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:42:19.743937Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=9 rows=22 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T02:42:19.744838Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=9 pid=9176
+2026-07-05T02:42:22.305237Z  INFO herdr::pane: agent changed pane=9 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(9225)
+2026-07-05T02:42:24.746280Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:42:29.146724Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:29.336678Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:30.091807Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:30.445686Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:31.250806Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:31.610821Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:31.840862Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:32.020941Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:32.170859Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:32.300559Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:32.405780Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:32.530780Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:32.690809Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:32.985746Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:33.435785Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:33.690861Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:33.895769Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:34.045596Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:34.185628Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:34.294699Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:34.589940Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:34.829664Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:35.049965Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:35.225065Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:35.424962Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:35.799867Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:40.488848Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:43.397745Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:43.563182Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:43.688116Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:43.793077Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:43.913003Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:44.013124Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:44.118145Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:42:49.120078Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:43:01.874055Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-07-05T02:43:03.903866Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:43:08.905165Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:43:16.157263Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=10 rows=22 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T02:43:16.158229Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=10 pid=9401
+2026-07-05T02:43:16.714568Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=9 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T02:43:16.775562Z  INFO herdr::pane: pane session terminated pane=9 pid=9176 signal=Hangup
+2026-07-05T02:43:16.775752Z  WARN herdr::app::actions: PaneDied for unknown pane pane=9
+2026-07-05T02:43:17.782805Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=10 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:43:17.783050Z  INFO herdr::pane: pane session terminated pane=10 pid=9401 signal=Hangup
+2026-07-05T02:43:22.784721Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:43:29.005404Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=11 rows=22 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T02:43:29.006315Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=11 pid=9478
+2026-07-05T02:43:34.007146Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:43:36.663250Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:43:38.853440Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:43:42.258397Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:43:43.457562Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:43:44.147406Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:43:49.149023Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:44:06.764681Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:44:07.734612Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:44:12.737014Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:44:24.352725Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:44:29.354967Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:44:40.717380Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=12 rows=44 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T02:44:40.718421Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=12 pid=9814
+2026-07-05T02:44:53.982564Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=13 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:44:53.983485Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=13 pid=9839
+2026-07-05T02:44:56.322408Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=14 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:44:56.323396Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=14 pid=9853
+2026-07-05T02:44:57.952286Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=15 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:44:57.953340Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=15 pid=9858
+2026-07-05T02:45:21.896579Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=15 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:45:21.896914Z  INFO herdr::pane: pane session terminated pane=15 pid=9858 signal=Hangup
+2026-07-05T02:45:25.381709Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=14 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:45:25.381865Z  INFO herdr::pane: pane session terminated pane=14 pid=9853 signal=Hangup
+2026-07-05T02:45:26.690848Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=13 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:45:26.691031Z  INFO herdr::pane: pane session terminated pane=13 pid=9839 signal=Hangup
+2026-07-05T02:45:30.505804Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=12 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:45:30.506092Z  INFO herdr::pane: pane session terminated pane=12 pid=9814 signal=Hangup
+2026-07-05T02:45:35.507274Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:45:40.903366Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=16 rows=44 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T02:45:40.904381Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=16 pid=10084
+2026-07-05T02:45:43.433509Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=16 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:45:43.433729Z  INFO herdr::pane: pane session terminated pane=16 pid=10084 signal=Hangup
+2026-07-05T02:45:48.435540Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:46:03.710630Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-05T02:46:08.594723Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-05T02:46:16.804780Z  INFO herdr::app::actions: copied selection to clipboard
+2026-07-05T02:46:38.972813Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:46:40.852887Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T02:46:42.914943Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=11 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T02:46:42.914995Z  INFO herdr::pane: pane session terminated pane=11 pid=9478 signal=Hangup
+2026-07-05T02:46:47.916731Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:47:28.626103Z  INFO herdr::pane: agent changed pane=7 previous_agent=Some(OpenCode) agent=None pgid=Some(8173)
+2026-07-05T02:47:33.145196Z  INFO herdr::pane: agent changed pane=7 previous_agent=None agent=Some(OpenCode) process=opencode pgid=Some(10860)
+2026-07-05T02:49:37.164323Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-07-05T02:49:42.165574Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T02:49:49.713676Z  INFO herdr::server::headless: client detach requested via keybind client_id=4
+2026-07-05T02:49:49.714523Z  INFO herdr::server::headless: client disconnected client_id=4
+2026-07-05T02:49:52.228701Z  INFO herdr::server::headless: client connected client_id=6 cols=167 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-05T02:54:17.809107Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=17 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T02:54:17.810096Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=17 pid=11929
+2026-07-05T02:54:17.810227Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t3"
+2026-07-05T02:54:17.810236Z  INFO herdr::logging: tab created event="tab.create" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t3" pane_id=17
+2026-07-05T02:54:22.822320Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T03:01:04.181853Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T03:01:09.183524Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T03:01:28.706948Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=18 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T03:01:28.707868Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=18 pid=13081
+2026-07-05T03:01:28.708007Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w5" pane_id=18
+2026-07-05T03:01:28.708013Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-05T03:01:28.708019Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:01:33.715805Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:02:34.261324Z  INFO herdr::logging: checking for updates event="update.check.start" subsystem="update" outcome="started"
+2026-07-05T03:03:28.135532Z  WARN herdr::config::keybinds: config diagnostic empty custom command: keys.command[0].command; disabling custom command
+2026-07-05T03:04:44.967823Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=19 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T03:04:44.968915Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=19 pid=13950
+2026-07-05T03:04:47.389853Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=19 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T03:04:47.389913Z  INFO herdr::pane: pane session terminated pane=19 pid=13950 signal=Hangup
+2026-07-05T03:04:52.391396Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:05:13.527113Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=20 rows=22 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T03:05:13.528183Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=20 pid=14014
+2026-07-05T03:05:16.001909Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:17.685601Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:18.620559Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:19.530753Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:24.532332Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:05:33.968254Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=21 rows=44 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T03:05:33.969255Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=21 pid=14126
+2026-07-05T03:05:39.049075Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=21 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T03:05:39.049136Z  INFO herdr::pane: pane session terminated pane=21 pid=14126 signal=Hangup
+2026-07-05T03:05:44.050341Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:05:47.466102Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=22 rows=44 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T03:05:47.467071Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=22 pid=14207
+2026-07-05T03:05:50.235446Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:51.910236Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:55.514099Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:55.909191Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:56.588990Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:56.728749Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:05:58.946152Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=22 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T03:05:58.946243Z  INFO herdr::pane: pane session terminated pane=22 pid=14207 signal=Hangup
+2026-07-05T03:06:03.947982Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:06:05.103222Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=23 rows=44 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T03:06:05.104255Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=23 pid=14251
+2026-07-05T03:06:18.623037Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=23 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T03:06:18.623160Z  INFO herdr::pane: pane session terminated pane=23 pid=14251 signal=Hangup
+2026-07-05T03:06:23.624243Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:06:24.884878Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:06:29.886495Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:06:32.789368Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=24 rows=44 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T03:06:32.790395Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=24 pid=14311
+2026-07-05T03:06:38.115433Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=24 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T03:06:38.115488Z  INFO herdr::pane: pane session terminated pane=24 pid=14311 signal=Hangup
+2026-07-05T03:06:43.117091Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:08:23.944931Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=25 rows=44 cols=72 scrollback_limit_bytes=10000000
+2026-07-05T03:08:23.946004Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=25 pid=14598
+2026-07-05T03:08:25.746142Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=25 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T03:08:25.746198Z  INFO herdr::pane: pane session terminated pane=25 pid=14598 signal=Hangup
+2026-07-05T03:08:30.747290Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:08:38.061955Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-05T03:08:38.061983Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:43.063819Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:08:43.781084Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:44.281232Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:44.741216Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:45.326144Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:45.806034Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:46.246119Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:46.560959Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:46.850993Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:08:51.852253Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:08:54.129979Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-07-05T03:08:54.130006Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T03:08:59.131260Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:09:49.671545Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-05T03:09:49.671574Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:09:54.674076Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:11:02.782166Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:11:02.979713Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:11:04.249682Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:11:13.105690Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:13:07.812638Z  INFO herdr::server::headless: client detach requested via keybind client_id=6
+2026-07-05T03:13:07.813602Z  INFO herdr::server::headless: client disconnected client_id=6
+2026-07-05T03:13:09.323033Z  INFO herdr::server::headless: client connected client_id=8 cols=167 rows=45 cell_width_px=0 cell_height_px=0 render_encoding=SemanticFrame
+2026-07-05T03:19:54.804062Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-07-05T03:19:54.804090Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T03:19:56.374196Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-05T03:19:56.374223Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:20:01.375233Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:20:20.608626Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:20:24.639220Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-07-05T03:20:24.639246Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T03:20:26.039353Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-05T03:20:26.039379Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:20:28.724616Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-07-05T03:20:28.724643Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T03:20:30.568383Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-05T03:20:30.568410Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:20:35.569500Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:21:09.011942Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w4"
+2026-07-05T03:21:09.011968Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T03:21:10.285928Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-05T03:21:10.285955Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w5" tab_id="w5:t1"
+2026-07-05T03:21:15.287280Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2
+2026-07-05T03:21:31.637186Z  INFO herdr::logging: workspace closed event="workspace.close" subsystem="workspace" outcome="ok" workspace_id="w5"
+2026-07-05T03:21:36.638860Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T03:22:00.670319Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-07-05T03:22:02.095421Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t3"
+2026-07-05T03:22:03.115423Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-07-05T03:22:03.899262Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T03:22:04.794312Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-07-05T03:22:06.079549Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t3"
+2026-07-05T03:22:07.109495Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t1"
+2026-07-05T03:22:08.098525Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t2"
+2026-07-05T03:22:08.698519Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w4" tab_id="w4:t3"
+2026-07-05T03:22:09.580414Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=17 status="ExitStatus { code: 0, signal: None }"
+2026-07-05T03:22:09.581162Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=20 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T03:22:09.582919Z  INFO herdr::pane: pane session terminated pane=20 pid=14014 signal=Hangup
+2026-07-05T03:22:09.583896Z  INFO herdr::logging: pane child exited event="pane.exit" subsystem="pane" outcome="completed" pane_id=18 status="ExitStatus { code: 1, signal: Some(\"Hangup\") }"
+2026-07-05T03:22:09.586119Z  INFO herdr::pane: pane session terminated pane=18 pid=13081 signal=Hangup
+2026-07-05T03:22:09.586263Z  INFO herdr::pane: pane session terminated pane=17 pid=11929 signal=Hangup
+2026-07-05T03:22:09.586280Z  WARN herdr::app::actions: PaneDied for unknown pane pane=20
+2026-07-05T03:22:09.586288Z  WARN herdr::app::actions: PaneDied for unknown pane pane=18
+2026-07-05T03:22:14.587612Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=1
+2026-07-05T03:22:20.781521Z  INFO herdr::logging: spawning pane terminal event="pane.spawn.start" subsystem="pane" outcome="started" pane_id=26 rows=44 cols=144 scrollback_limit_bytes=10000000
+2026-07-05T03:22:20.782385Z  INFO herdr::logging: pane child spawned event="pane.spawned" subsystem="pane" outcome="ok" pane_id=26 pid=16256
+2026-07-05T03:22:20.782508Z  INFO herdr::logging: workspace created event="workspace.create" subsystem="workspace" outcome="ok" workspace_id="w6" pane_id=26
+2026-07-05T03:22:20.782514Z  INFO herdr::logging: workspace focused event="workspace.focus" subsystem="workspace" outcome="ok" workspace_id="w6"
+2026-07-05T03:22:20.782520Z  INFO herdr::logging: tab focused event="tab.focus" subsystem="tab" outcome="ok" workspace_id="w6" tab_id="w6:t1"
+2026-07-05T03:22:25.788278Z  INFO herdr::logging: session saved event="persist.save" subsystem="persist" outcome="ok" path=/home/spicydogwings/.config/herdr/session.json workspaces=2

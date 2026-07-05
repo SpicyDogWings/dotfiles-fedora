@@ -1,0 +1,48 @@
+2026-06-11T00:30:00.415827Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=12903
+2026-06-11T00:30:00.415855Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-06-11T00:30:00.424379Z  INFO herdr::client: handshake succeeded version=13 encoding=SemanticFrame
+2026-06-11T00:37:00.288756Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=16815
+2026-06-11T00:37:00.288800Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-06-11T00:37:00.454370Z  INFO herdr::client: handshake succeeded version=13 encoding=SemanticFrame
+2026-06-11T00:37:17.958826Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=16815
+2026-06-11T00:37:20.533262Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=16934
+2026-06-11T00:37:20.533320Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-06-11T00:37:20.578578Z  INFO herdr::client: handshake succeeded version=13 encoding=SemanticFrame
+2026-06-11T00:37:28.250905Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=16934
+2026-06-11T00:37:56.419440Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=17088
+2026-06-11T00:37:56.419483Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-06-11T00:37:56.490195Z  INFO herdr::client: handshake succeeded version=13 encoding=SemanticFrame
+2026-06-11T00:38:20.849271Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=17088
+2026-06-11T00:41:02.455690Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=18994
+2026-06-11T00:41:02.455741Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-06-11T00:41:02.587827Z  INFO herdr::client: handshake succeeded version=13 encoding=SemanticFrame
+2026-06-11T05:15:38.993446Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=18994
+2026-07-05T02:28:03.406535Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=3956
+2026-07-05T02:28:03.406577Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:28:03.499263Z  INFO herdr::client: handshake succeeded version=13 encoding=SemanticFrame
+2026-07-05T02:30:34.944171Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=3956
+2026-07-05T02:30:40.936870Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=6202
+2026-07-05T02:30:40.936892Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:30:40.975582Z  INFO herdr::client: handshake succeeded version=13 encoding=SemanticFrame
+2026-07-05T02:30:44.160059Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=6202
+2026-07-05T02:32:34.272109Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=6689
+2026-07-05T02:32:34.272144Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:32:34.361594Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
+2026-07-05T02:33:39.124901Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=6689
+2026-07-05T02:33:41.342191Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=7016
+2026-07-05T02:33:41.342216Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:33:41.386695Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
+2026-07-05T02:49:49.714129Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=7016
+2026-07-05T02:49:52.215411Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=11246
+2026-07-05T02:49:52.215436Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T02:49:52.228675Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
+2026-07-05T03:13:07.813168Z  INFO herdr::logging: herdr exiting event="app.shutdown" subsystem="client" outcome="completed" pid=11246
+2026-07-05T03:13:09.304825Z  WARN herdr::config::io: config parse error, using defaults err=TOML parse error at line 20, column 18
+   |
+20 | command = "octo" description = "Run octo in a new tab"
+   |                  ^
+expected newline, `#`
+
+2026-07-05T03:13:09.304854Z  INFO herdr::logging: herdr starting event="app.startup" subsystem="client" outcome="started" pid=15232
+2026-07-05T03:13:09.304859Z  INFO herdr::client: connecting to server path=/home/spicydogwings/.config/herdr/herdr-client.sock
+2026-07-05T03:13:09.323011Z  INFO herdr::client: handshake succeeded version=14 encoding=SemanticFrame
