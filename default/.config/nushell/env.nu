@@ -106,14 +106,25 @@ $env.NU_PLUGIN_DIRS = [
 # Custom Configs
 # ---------------
  
+# environment vars
+$env.PNPM_HOME = "/home/spicydogwings/.local/share/pnpm"
+
+#bins
 $env.Path = ($env.Path | append '~/.local/bin')
+
+#node
 $env.Path = ($env.Path | append '~/.local/share/fnm')
 $env.Path = ($env.Path | append '~/.local/share/fnm/aliases')
 $env.Path = ($env.Path | append '~/.local/share/fnm/node-versions/v24.11.1/installation/bin')
 $env.Path = ($env.Path | append '~/.local/share/pnpm')
+$env.Path = ($env.Path | append '~/.local/share/pnpm/bin')
+$env.Path = ($env.Path | append '~/.local/share/pnpm/global/5/node_modules')
+$env.PATH = ($env.PATH | split row (char esep) | prepend ($env.PNPM_HOME | path join "bin") )
+
 $env.Path = ($env.Path | append '~/.cargo/bin')
 $env.Path = ($env.Path | append '~/.opencode/bin')
 $env.Path = ($env.Path | append '~/.bun/bin')
 
 # Agregar una ruta al PATH (persistente)
 #$env.PATH = ($env.PATH | split row ':' | append "/ruta/a/agregar" | join ':')
+

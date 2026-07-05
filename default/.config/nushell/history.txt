@@ -1955,3 +1955,146 @@ clear
 pnpm install -g prettier-plugin-sh
 corepack use pnpm@11.10.0
 clear
+dotstate
+clear
+ls
+clear
+ls
+exit
+hx ~/.config/nushell/env.nu
+cd 
+hx ~/.config/helix/config.toml
+npm install -g prettier prettier-plugin-sh
+clear
+ls
+clear
+ls
+hx --health bash
+clear
+hx --health bash
+clear
+cd Documents/canary/patroclo/
+hx
+clear
+hx
+prettier --plugin prettier-plugin-sh --parser bash octo
+pnpm install -g prettier-plugin-sh
+pnpm
+pnpm install -g prettier-plugin-sh
+hx ~/.config/helix/languages.toml
+clear
+ls
+pnpm install -g prettier-plugin-sh
+clear
+pnpm install -g prettier-plugin-sh
+clear
+ls
+cd Documents/canary/patroclo/
+prettier --plugin prettier-plugin-sh --parser bash octo
+clear
+ls
+clear
+exit
+cd .pnpm
+clear
+ls
+cd .local/share/pnpm/bin/
+ls
+clear
+ls
+cd ..
+ls
+cd Documents/canary/patroclo/
+prettier --plugin prettier-plugin-sh --parser bash octo
+pnpm install -g prettier-plugin-sh
+prettier --plugin prettier-plugin-sh --parser bash octo
+clear
+prettier
+clear
+prettier-plugin-sh
+cd ~/.local/share/pnpm
+ls
+cd global/
+ls
+cd v11/
+ls
+cd ..
+cd 5
+ls
+cd node_modules/
+ls
+clear
+exit
+cd Documents/canary/patroclo/
+ls
+prettier-plugin-sh
+prettier --plugin prettier-plugin-sh --parser bash octo
+ls
+./prettier-plugin-sh/
+ls
+cd ..
+ls
+pwd
+clear
+oxlint
+clear
+pnpx prettier --plugin prettier-plugin-sh --parser bash octo
+clear
+ls
+cd Documents/canary/patroclo/
+pnpx prettier --plugin prettier-plugin-sh --parser bash octo
+pnpx prettier --plugin prettier-plugin-sh --parser bash octo
+pnpx prettier --plugin prettier-plugin-sh --parser bash mkdesktop.sh
+pnpm remove -g prettier-plugin-sh
+ls
+pnpm remove -g prettier-plugin-sh
+pnpm uninstall -g prettier-plugin-sh
+pnpm list -g --depth 0
+clear
+ls
+ls ~/.local/share/pnpm/store/ | grep prettier-plugin-sh
+clear
+ls
+pnpm config get global-prefix
+pnpm setup
+pnpx prettier --plugin prettier-plugin-sh --parser bash mkdesktop.sh
+clear
+oxlint
+clear
+celar
+pnpm config get global-prefix
+pnpm add -g prettier-plugin-sh
+pnpm list -g --depth 0
+pnpm add -g prettier-plugin-sh
+pnpm list -g --depth 0
+pnpm config get global-prefix
+clear
+cd Documents/canary/patroclo/
+pnpx prettier --plugin prettier-plugin-sh --parser bash mkdesktop.sh
+pnpm list -g --depth 0
+pnpm exec prettier --plugin prettier-plugin-sh --parser bash mkdesktop.sh
+pnpm remove -g prettier-plugin-sh
+pnpm list -g --depth 0
+pnpm install -g --depth 0
+pnpm install -g prettier-plugin-sh
+pnpm exec prettier --plugin prettier-plugin-sh --parser bash mkdesktop.sh
+pnpx prettier --plugin prettier-plugin-sh --parser bash mkdesktop.sh
+pnpm remove -g prettier-plugin-sh
+clear
+ls
+pnpm uninstall -g prettier-plugin-sh
+clear
+ls
+clear
+hx ~/.config/nushell/env.nu
+exit
+exit
+clear
+herdr update
+exit
+clear
+herdr
+clear
+herdr
+clear
+herdr update

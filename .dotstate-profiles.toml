@@ -55,3 +55,10 @@ description = "Un toolkit para realizar scripts iteractivos"
 manager = "cargo"
 package_name = "pandora-kit"
 binary_name = "pandora"
+
+[[profiles.packages]]
+name = "herdr"
+description = "Un miltiplezador para la era agentica"
+manager = "custom"
+binary_name = "herdr"
+install_command = "curl -fsSL https://herdr.dev/install.sh | sh"

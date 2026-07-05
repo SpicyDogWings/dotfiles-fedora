@@ -7,6 +7,7 @@ auto-format = true
 command = "vscode-html-languageserver"
 args = ["--stdio"]
 
+
 [[language]]
 name = "css"
 formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.html"] }
@@ -16,6 +17,7 @@ auto-format = true
 command = "vscode-css-languageserver"
 args = ["--stdio"]
 
+
 [[language]]
 name = "vue"
 formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.html"] }
@@ -23,7 +25,6 @@ scope = "source.vue"
 injection-regex = "vue"
 file-types = ["vue"]
 language-servers = ["volar", "oxlint"]
-
 [language-server.volar]
 command = "vue-language-server"
 args = ["--stdio"]
@@ -33,6 +34,15 @@ args = ["--stdio"]
 command = "tailwindcss-language-server"
 args = ["--stdio"]
 
+
 [language-server.emmet-lsp]
 command = "emmet-ls"
 args = ["--stdio"]
+
+
+[[language]]
+name = "bash"
+scope = "source.bash"
+file-types = ["sh", "bash"]
+comment-token = "#"
+indent = { tab-width = 2, unit = "  " }
