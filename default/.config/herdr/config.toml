@@ -19,5 +19,12 @@ next_workspace = "prefix+shift+j"
 key = "prefix+alt+o"
 type = "pane"
 command = "octo"
-description = "Run octo in a new tab"
+description = "Run octo Git Tool in temp pane"
+
+[[keys.command]]
+key = "prefix+alt+y"
+type = "pane"
+command = "yazi"
+description = "Run yazi File Explorer in temp pane"
+
 
