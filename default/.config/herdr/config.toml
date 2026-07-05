@@ -1,0 +1,23 @@
+onboarding = false
+[ui]
+agent_panel_scope = "all"
+
+
+[theme]
+name = "terminal"
+auto_switch = false
+
+[ui.toast]
+delivery = "herdr"
+
+[keys]
+prefix = "ctrl+h"
+previous_workspace = "prefix+shift+k"
+next_workspace = "prefix+shift+j"
+
+[[keys.command]]
+key = "prefix+alt+o"
+type = "pane"
+command = "octo"
+description = "Run octo in a new tab"
+
