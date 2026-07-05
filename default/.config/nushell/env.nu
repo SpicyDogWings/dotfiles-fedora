@@ -107,6 +107,10 @@ $env.NU_PLUGIN_DIRS = [
 # ---------------
  
 $env.Path = ($env.Path | append '~/.local/bin')
+$env.Path = ($env.Path | append '~/.local/share/fnm')
+$env.Path = ($env.Path | append '~/.local/share/fnm/aliases')
+$env.Path = ($env.Path | append '~/.local/share/fnm/node-versions/v24.11.1/installation/bin')
+$env.Path = ($env.Path | append '~/.local/share/pnpm')
 $env.Path = ($env.Path | append '~/.cargo/bin')
 $env.Path = ($env.Path | append '~/.opencode/bin')
 $env.Path = ($env.Path | append '~/.bun/bin')

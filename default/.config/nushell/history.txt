@@ -1444,3 +1444,514 @@ clear
 ls
 clear
 cd
+dotstate
+clear
+y
+yazi
+yz
+ya
+cd /home/spicydogwings/Documents/canary/crates/hefesto-widget
+celar
+clear
+cd /home/spicydogwings/Documents/canary/crates/hefesto-widget
+clear
+ls
+cargo test; cargo build; cargo doc
+cargo publish
+yazi
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+rm -r publish.sh
+cd /home/spicydogwings/Documents/canary/pandora-kit
+cd /home/spicydogwings/Documents/canary/pandora-kit
+hx
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit
+ls
+cargo update
+exit
+clear
+pan test
+cargo test
+cargo build
+clear
+cargo run file
+celar
+clear
+ls
+git pull
+clear
+cargo run file
+clear
+ls
+cd Documents/
+ls
+cd 
+cd .config/
+ls
+clear
+ls
+clear
+ls
+cd alacritty/
+ls
+hx alacritty.toml
+exit
+cargo run choose hola adios
+cargo run choose hola adios
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit
+cargo run choose hola adios
+cargo run file
+celar
+clear
+ls
+clear
+ls
+cd /home/spicydogwings/Documents/canary
+git clone https://oauth2:glpat-U8aO9fBgk3qe31GYHVsrTGM6MQpvOjEKdTpucnAxZA8.01.171peyrm9@gitlab.com/SpicyDogWings/patroclo.git
+clear
+cd patroclo/
+ls
+cl4ear
+clear
+ls
+clear
+octo
+ln -s ./octo ~/.local/bin/octo
+ls
+octo
+ls ~/.local/bin
+rm ~/.local/bin/octo
+ls ~/.local/bin
+ln -s ~/.local/bin/octo ./octo
+ln -s ./octo ~/.local/bin/octo
+ls ~/.local/bin
+ls -la ~/.local/bin/
+ln -s ~/Documents/canary/patroclo/octo ~/.local/bin/octo
+rm ~/.local/bin/octo
+ln -s ~/Documents/canary/patroclo/octo ~/.local/bin/octo
+clear
+ls
+octo
+clear
+ls
+clear
+octo
+clear
+exit
+octo
+clear
+exit
+lazygit
+clear
+octo
+exit
+clear
+ls
+octo
+clear
+octo
+clear
+ls
+clear
+cargo run file
+octo
+clear
+octo
+cargo run file
+cargo run choose hola adios
+cargo run filter hola adios
+cargo run filter hola adios jajaj ajjajaj
+cargo run file
+cargo run -- file
+cargo run -- -h
+cargo run spin -c
+cargo run spin -h
+cargo run spin -w
+cargo run spin -w -c "echo hola"
+cargo run spin -t "imprimir mensaje" -w -c "echo hola"
+cargo run spin -h
+cargo run spin -t "imprimir mensaje" -w -c "echo hola"
+celar
+clear
+ls
+cargo run -h
+clear
+ls
+cargo run -- -h
+cargo run confirm
+clear
+cargo test
+cargo build
+clear
+ls
+cargo run -- h
+cargo run -- -h
+cargo run input
+clear
+cargo run input
+clear
+cargo run -- -h
+cargo run menu ./src/menu/fixtures/ejemplo_menu.txt
+clear
+ls
+celar
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+cargo run -- -h
+clear
+cargo run -- file
+cargo run file
+clear
+ls
+clear
+ls
+clear
+ls
+clear
+ls
+ls -la
+clear
+ls
+octo
+clear
+ls
+octo
+git log
+clear
+cargo run file
+celar
+clear
+octo
+clear
+octo
+clear
+cargo run file
+clear
+cargo test
+cargo doc
+cargo build
+cargo doc
+cargo run spin -t "imprimir mensaje" -w -c "echo hola"
+clear
+cargo run spin -t "imprimir mensaje" -w -c "echo hola"
+clear
+ls
+cargo run spin -t "imprimir mensaje" -w -c "echo hola"
+cargo run input
+cargo run input -h
+cargo run input
+clear
+cargo run filter hola adios
+cargo run filter hola
+cargo test
+cargo build
+cargo doc
+clear
+cargo run input
+cargo run filter hola
+cargo run filter hola adios
+clear
+octo
+cargo check
+cargo test
+cargo build
+cargo doc
+octo
+clear
+octo
+lazygit
+octo
+cargo check; cargo test; cargo build; cargo doc
+octo
+clear
+ls
+cargo publish
+cargo check; cargo test; cargo build; cargo doc
+octo
+cargo publish
+clear
+ls
+cargo check; cargo test; cargo build; cargo doc
+lazygit
+octo
+cargo check; cargo test; cargo build; cargo doc
+ls
+octo
+cargo publish
+pan update
+octo
+clear
+ls
+clear
+ls
+exit
+yazi
+exit
+zellij
+celar
+ls
+celar
+clear
+cd /home/spicydogwings/Documents/canary/pandora-kit
+cd /home/spicydogwings/.config/niri/dms
+ls
+cd ..
+clear
+ya
+ya pkg install auto-layout.yazi
+ya
+ya pkg -h
+ya pkg list
+hx ~/.config/yazi/yazi.toml
+yazi
+yazi
+clear
+hx ~/.config/yazi/yazi.toml
+yazi
+clear
+ls
+yazi
+exit
+cd Documents/canary/pandora-kit/
+ls
+cd Documents/canary/pandora-kit/
+ls
+cargo check; cargo test; cargo build; cargo doc
+celar
+clear
+cd Documents/canary/patroclo/
+ls
+octo
+oco
+octo
+clear
+ls
+exit
+ls
+octo
+clear
+ls
+octo
+cd Documents/canary/patroclo/
+clear
+ls
+cargo publish
+celar
+clear
+pan updat
+pan update
+pan file -h
+pan file -s
+clear
+ls
+celar
+clear
+ls
+cd Documents/canary/patroclo/
+cd ~/Documents/canary/patroclo/
+hx
+clear
+cd ~/Documents/canary/patroclo/
+opencode
+cd ~/Documents/canary/patroclo/
+clear
+octo
+clear
+cd ~/Documents/canary/patroclo/
+git reset --hard origin/main
+celar
+clear
+octo
+clear
+git reset --hard origin/main
+octo
+clear
+octo
+clear
+ls
+octo
+cd Documents/canary/pandora-kit/
+ls
+quiron
+clear
+ls
+quiron
+clear
+exit
+pan update
+octo
+clear
+octo
+git stach pop
+git stash pop
+octo
+clear
+ls
+octo
+cler
+clear
+ls
+yazi
+exit
+cd Documents/canary/patroclo/
+yazi
+exit
+ls
+heli
+clear
+hx -f
+hx -v
+hx --version
+pan update
+lls
+ls
+hx --helth rust
+hx --health
+hx --health rust
+sudo dnf install llddb-dap
+sudo dnf update
+ls
+clear
+cler
+cleer
+ls
+clear
+ls
+hx
+ls ~/.config/helix/
+sudo dnf search helix
+ls ~/.cargo/bin/
+ls ~/.cargo/bin/ | where name =° heli
+ls ~/.cargo/bin/ | where name =~ heli
+ls ~/.cargo/bin/ | where name =~ helix
+ls ~/.cargo/bin/ | where name =~ hx
+witch helix
+witch hx
+find hx /
+clea
+hx 
+ls ~/.cargo/bin/ | where name =~ hx
+ls ~/.cargo/bin/ | where name =~ helix
+ls ~/.cargo/bin/
+ls ~/.local/bin/
+ls ~/.local/bin/ | where name 0~ helix
+ls ~/.local/bin/ | where name =~ helix
+ls ~/.local/bin/ | where name =~ hx
+sudo dnf remove hx
+sudo dnf remove helix
+clear
+ls
+hx
+hx --health rust
+hx --health bash
+clear
+ls
+pnpm -v
+clear
+npm -v
+clear
+pnpm -v
+clear
+hx
+clear
+ls
+node -v
+clear
+ls
+find pnpm
+clear
+cd
+ls ~/.local/share
+ls ~/.local/share | where =~ pnpm
+ls ~/.local/share | where name =~ pnpm
+ls ~/.local/share/pnpm
+ls ~/.local/share/pnpm/store
+ls ~/.local/share/pnpm/store/v22
+ls ~/.local/share/pnpm/store/v11
+ls ~/.local/share/pnpm/store/v11/files
+cd ~/.local/share/php
+cd ~/.local/share/pnpm
+ls
+ls store/v11/files/
+clear
+ls store/v11/files | where name =~ pnpm
+ls
+clear
+ls
+hx ~/.config/nushell/env.nu
+source ~/.config/nushell/config.nu
+clear
+pnpm
+bash
+clear
+hx
+hx --health bash
+exit
+hx --health bash
+hx ~/Documents/canary/patroclo/
+ls | where name =~ pnpm
+ls | where name =~ Docu
+ls | where name =~ config
+ls | where name =~ .con
+ls
+ls -a | where name =~ pnpm
+ls -a | where name =~ config
+clear
+ls
+fnm
+clear
+ls ~/.local/share/fnm
+exit
+clear
+ls
+fnm
+pnpm
+clea
+rclear
+clear
+ls
+clear
+ls
+cd ~/.local/share/fnm
+ls
+clear
+ls
+cd aliases/
+ls
+cd ..
+ls
+clear
+ls
+ls node-versions/
+ls node-versions/v24.11.1/
+ls
+ls node-versions/v24.11.1/installation/
+ls node-versions/v24.11.1/installation/bin/
+clear
+ls node-versions/v24.11.1/installation/bin/
+clear
+ls
+pnpm
+clear
+pnpm install vscode-bash-debug
+hx --health bash
+clear
+cargo install topiary
+clear
+pnpm install -g prettier-plugin-sh
+corepack use pnpm@11.10.0
+clear
