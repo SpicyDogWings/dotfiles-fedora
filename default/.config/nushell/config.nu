@@ -904,6 +904,8 @@ $env.config = {
 # Custom Configs
 # ---------------
 
+$env.config.show_banner = false
+
 # Editor default
 $env.config.buffer_editor = 'hx'
 

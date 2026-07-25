@@ -139,7 +139,7 @@
     "custom": 2,
   },
   "agent_buffer_font_size": 14.0,
-  "helix_mode": true,
+  "helix_mode": false,
   "multi_cursor_modifier": "cmd_or_ctrl",
   "cursor_shape": "underline",
   "cursor_blink": true,

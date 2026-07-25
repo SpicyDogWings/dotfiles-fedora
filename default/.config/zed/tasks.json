@@ -1,0 +1,15 @@
+[
+  {
+    "label": "GitHub: Clone Repository with Token",
+    "command": "bash",
+    "args": [
+      "-c",
+      "read -p 'GitHub Token: ' token && read -p 'Repository URL (sin https://): ' repo && git clone https://$token@github.com/${repo//\\// }"
+    ],
+    "use_new_terminal": true,
+    "shell": {
+      "program": "/bin/bash",
+    },
+    "reveal": "always"
+  }
+]
