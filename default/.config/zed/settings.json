@@ -71,13 +71,13 @@
     "model_parameters": []
   },
   "icon_theme": {
-    "mode": "dark",
+    "mode": "light",
     "light": "Warm Charmed Icons",
     "dark": "Warm Charmed Icons"
   },
   "theme": {
-    "mode": "dark",
-    "light": "One Light",
+    "mode": "light",
+    "light": "Noctalia Light Transparent",
     "dark": "Retro 001"
   },
   "title_bar": {
