@@ -20,6 +20,7 @@ synced_files = [
     ".config/yazi",
     ".config/zed",
     ".config/zellij",
+    "Music/cassette.sh",
 ]
 
 [[profiles.packages]]
