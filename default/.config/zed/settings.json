@@ -25,7 +25,7 @@
     "provider": "codestral"
   },
   "agent_servers": {
-    "mistral-vibe": {
+    "goose": {
       "type": "registry"
     },
     "opencode": {
@@ -76,7 +76,7 @@
     "dark": "Warm Charmed Icons"
   },
   "theme": {
-    "mode": "light",
+    "mode": "dark",
     "light": "Noctalia Light Transparent",
     "dark": "Retro 001"
   },

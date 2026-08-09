@@ -30,6 +30,11 @@ command = "vue-language-server"
 args = ["--stdio"]
 
 
+[language-server.oxlint]
+command = "oxlint"
+args = ["--lsp"]
+
+
 [language-server.tailwindcss-language-server]
 command = "tailwindcss-language-server"
 args = ["--stdio"]
