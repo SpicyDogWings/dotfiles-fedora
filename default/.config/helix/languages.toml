@@ -9,10 +9,12 @@ args = ["--stdio"]
 
 
 [[language]]
-name = "css"
-formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.html"] }
-language-servers = ["vscode-css-languageserver"]
+name = "php"
+language-servers = ["php-lsp"]
+formatter = { command = "mago", args = ["format", "--stdin-input"] }
 auto-format = true
+[language-server.php-lsp]
+command = "php-lsp"
 [language-server.vscode-css-languageserver]
 command = "vscode-css-languageserver"
 args = ["--stdio"]
@@ -57,3 +59,8 @@ indent = { tab-width = 2, unit = "  " }
 name = "rust"
 formatter = { command = "rustfmt" }
 auto-format = true
+
+[[language]]
+name = "php"
+formatter = { command = "mago", args = ["format", "--stdin-input"] }
+auto-format = false
