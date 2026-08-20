@@ -1,4 +1,4 @@
-spawn-at-startup "qs" "-c" "noctalia-shell"
+spawn-at-startup "noctalia"
 
 input {
     keyboard {
@@ -187,10 +187,10 @@ binds {
     // Open apps
     Mod+T hotkey-overlay-title="Open a Terminal: alacritty" { spawn "alacritty"; }
     //Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
-    Mod+D hotkey-overlay-title="Run an Application: noctalia?" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
+    Mod+D hotkey-overlay-title="Run an Application: noctalia?" { spawn-sh "noctalia msg panel-toggle launcher"; }
 
     // Block layout screen: try Noctalia lock screen, fall back to swaylock.
-    Super+Alt+L hotkey-overlay-title="Lock the Screen: noctalia" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock || swaylock"; }
+    Super+Alt+L hotkey-overlay-title="Lock the Screen: noctalia" { spawn-sh "noctalia msg session lock || swaylock"; }
 
     // Allow voice accessibility?
     //Super+Alt+S allow-when-locked=true hotkey-overlay-title=null { spawn-sh "pkill orca || exec orca"; }

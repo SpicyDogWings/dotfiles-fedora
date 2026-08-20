@@ -67,3 +67,17 @@ description = "Un miltiplezador para la era agentica"
 manager = "custom"
 binary_name = "herdr"
 install_command = "curl -fsSL https://herdr.dev/install.sh | sh"
+
+[[profiles.packages]]
+name = "noctalia"
+description = "Shell de wayland"
+manager = "dnf"
+package_name = "noctalia"
+binary_name = "noctalia"
+
+[[profiles.packages]]
+name = "niri"
+description = "Compositor de ventanas wayland"
+manager = "dnf"
+package_name = "niri"
+binary_name = "niri"
