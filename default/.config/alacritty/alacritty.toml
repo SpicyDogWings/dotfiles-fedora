@@ -8,7 +8,7 @@ decorations = "Full"
 padding = { x = 20, y = 20 }
 
 [font]
-normal = { family = "CommitMono Nerd Font" }
+normal = { family = "CommitMono Nerd Font Mono" }
 size = 14
 
 [colors]
