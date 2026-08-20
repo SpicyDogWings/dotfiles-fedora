@@ -31,7 +31,7 @@ name = "yazi"
 description = "File Manager"
 manager = "custom"
 binary_name = "yazi"
-install_command = "./package_scripts/yazi.sh"
+install_command = "$HOME/.config/dotstate/storage/scripts/install-yazi.sh"
 existence_check = "yazi"
 
 [[profiles.packages]]
@@ -103,5 +103,13 @@ name = "starship"
 description = "Configuracion de shell"
 manager = "custom"
 binary_name = "starship"
-install_command = "curl -sS https://starship.rs/install.sh | sh"
+install_command = "./scripts/install-starship.sh"
 existence_check = "starship"
+
+[[profiles.packages]]
+name = "cargo"
+description = "Administrador de paquetes con rust"
+manager = "custom"
+binary_name = "cargo"
+install_command = "./install.sh"
+existence_check = "cargo"
