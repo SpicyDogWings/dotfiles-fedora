@@ -189,8 +189,8 @@ binds {
     //Mod+D hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Mod+D hotkey-overlay-title="Run an Application: noctalia?" { spawn-sh "qs -c noctalia-shell ipc call launcher toggle"; }
 
-    // Block layout screen
-    Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
+    // Block layout screen: try Noctalia lock screen, fall back to swaylock.
+    Super+Alt+L hotkey-overlay-title="Lock the Screen: noctalia" { spawn-sh "qs -c noctalia-shell ipc call lockScreen lock || swaylock"; }
 
     // Allow voice accessibility?
     //Super+Alt+S allow-when-locked=true hotkey-overlay-title=null { spawn-sh "pkill orca || exec orca"; }
