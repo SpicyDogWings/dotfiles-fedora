@@ -31,7 +31,7 @@ name = "yazi"
 description = "File Manager"
 manager = "custom"
 binary_name = "yazi"
-install_command = "$HOME/.config/dotstate/storage/scripts/install-yazi.sh"
+install_command = "/home/sheepcode/.config/dotstate/storage/scripts"
 existence_check = "yazi"
 
 [[profiles.packages]]
