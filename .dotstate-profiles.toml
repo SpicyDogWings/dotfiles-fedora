@@ -81,3 +81,17 @@ description = "Compositor de ventanas wayland"
 manager = "dnf"
 package_name = "niri"
 binary_name = "niri"
+
+[[profiles.packages]]
+name = "fish"
+description = "Ena shell moderna escrita en rust"
+manager = "dnf"
+package_name = "fish"
+binary_name = "fish"
+
+[[profiles.packages]]
+name = "eza"
+description = "Remplazo moderno de exa"
+manager = "dnf"
+package_name = "eza"
+binary_name = "eza"
