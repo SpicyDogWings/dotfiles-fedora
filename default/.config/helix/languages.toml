@@ -51,3 +51,9 @@ scope = "source.bash"
 file-types = ["sh", "bash"]
 comment-token = "#"
 indent = { tab-width = 2, unit = "  " }
+
+
+[[language]]
+name = "rust"
+formatter = { command = "rustfmt" }
+auto-format = true

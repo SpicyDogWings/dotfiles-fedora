@@ -64,7 +64,7 @@ hotkey-overlay {
 // Additionally, clients will be informed that they are tiled, removing some client-side rounded corners.
 // This option will also fix border/focus ring drawing behind some semitransparent windows.
 // After enabling or disabling this, you need to restart the apps for this to take effect.
-// prefer-no-csd
+prefer-no-csd
 
 // You can change the path where screenshots are saved.
 // A ~ at the front will be expanded to the home directory.
@@ -111,6 +111,46 @@ window-rule {
 window-rule {
   geometry-corner-radius 20
   clip-to-geometry true
+}
+
+/* Draw focus ring / border as a thin outline, not a solid rectangle behind
+   the window, so it doesn't show through semitransparent windows (CSD apps
+   like Zen Browser and GTK Files that ignore prefer-no-csd). */
+window-rule {
+    draw-border-with-background false
+}
+
+window-rule {
+    match is-focused=true
+    opacity 0.85
+}
+
+window-rule {
+    match is-focused=false
+    opacity 0.75
+}
+
+/* Apps: blur them all without xray so it looks more realistic. */
+window-rule {
+    background-effect {
+        blur true
+        xray false
+    }
+}
+
+/* Noctalia: disable xray on surfaces so it looks more realistic. */
+layer-rule {
+    match namespace="^noctalia-(bar-[^\"]+|notification|dock|panel|attached-panel|osd)$"
+    background-effect {
+        xray false
+    }
+}
+
+blur {
+    passes 2
+    offset 3.0
+    noise 0.03
+    saturation 1.0
 }
 
 debug {
