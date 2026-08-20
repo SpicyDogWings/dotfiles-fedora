@@ -113,3 +113,11 @@ manager = "custom"
 binary_name = "cargo"
 install_command = "./install.sh"
 existence_check = "cargo"
+
+[[profiles.packages]]
+name = "gitwig"
+description = "Una herramienta completa para git"
+manager = "custom"
+binary_name = "./install"
+install_command = "gitwig"
+existence_check = "gitwig"
