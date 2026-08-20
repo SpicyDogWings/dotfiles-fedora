@@ -19,3 +19,8 @@ save_to_clipboard = true
 
 [cursor]
 style = { shape = "Underline", blinking = "Always" }
+
+[keyboard]
+bindings = [
+    { key = "Return", mods = "Control|Shift", action = "SpawnNewInstance" },
+]
