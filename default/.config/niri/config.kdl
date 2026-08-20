@@ -17,6 +17,13 @@ input {
 
 output "eDP-1" {
     mode "1920x1080@120.030"
+    scale 1.5
+    transform "normal"
+    position x=0 y=0
+}
+
+output "HDMI-A-1" {
+    mode "1920x1080@60.000"
     scale 1
     transform "normal"
     position x=1280 y=0
@@ -465,5 +472,6 @@ layer-rule {
 
 
 
-include "./noctalia.kdl"
 
+
+include "noctalia.kdl"

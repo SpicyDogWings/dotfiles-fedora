@@ -95,3 +95,11 @@ description = "Remplazo moderno de exa"
 manager = "dnf"
 package_name = "eza"
 binary_name = "eza"
+
+[[profiles.packages]]
+name = "starship"
+description = "Configuracion de shell"
+manager = "custom"
+binary_name = "starship"
+install_command = "curl -sS https://starship.rs/install.sh | sh"
+existence_check = "starship"

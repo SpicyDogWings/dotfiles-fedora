@@ -1,2 +1,2 @@
 # opencode
-fish_add_path /home/spicydogwings/.opencode/bin
+fish_add_path "$HOME/.opencode/bin"
