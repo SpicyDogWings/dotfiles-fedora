@@ -1,4 +1,4 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
-SETUVAR fish_user_paths:/home/spicydogwings/\x2evite\x2dplus/js_runtime/node/24\x2e18\x2e0/bin\x1e/home/spicydogwings/\x2eopencode/bin
+SETUVAR fish_user_paths:/home/spicydogwings/\x2elocal/bin\x1e/home/spicydogwings/\x2evite\x2dplus/js_runtime/node/24\x2e18\x2e0/bin\x1e/home/spicydogwings/\x2eopencode/bin

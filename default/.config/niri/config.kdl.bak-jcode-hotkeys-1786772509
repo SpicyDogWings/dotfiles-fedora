@@ -137,10 +137,6 @@ debug {
 }
 
 binds {
-    // >>> jcode launch hotkeys (managed) >>>
-    Super+Semicolon hotkey-overlay-title="jcode: morias" { spawn "sh" "-c" "if [ -d '/home/spicydogwings/Documents/canary/morias' ]; then cd '/home/spicydogwings/Documents/canary/morias'; else cd \"$HOME\"; fi; exec 'alacritty' '/home/spicydogwings/.jcode/builds/versions/0.76.0/jcode-linux-x86_64.bin' --spawn-hotkey 'cmd+;'"; }
-    Super+Apostrophe hotkey-overlay-title="jcode: home" { spawn "sh" "-c" "if [ -d '/home/spicydogwings' ]; then cd '/home/spicydogwings'; else cd \"$HOME\"; fi; exec 'alacritty' '/home/spicydogwings/.jcode/builds/versions/0.76.0/jcode-linux-x86_64.bin' --spawn-hotkey 'cmd+'\\'''"; }
-    // <<< jcode launch hotkeys (managed) <<<
     // Show important commands
     //Mod+Shift+Slash { show-hotkey-overlay; }
 

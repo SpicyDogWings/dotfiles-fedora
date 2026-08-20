@@ -12,13 +12,11 @@ delivery = "herdr"
 
 [keys]
 prefix = "ctrl+h"
-previous_workspace = "prefix+shift+k"
-next_workspace = "prefix+shift+j"
 
 [[keys.command]]
 key = "prefix+alt+o"
 type = "pane"
-command = "octo"
+command = "git"
 description = "Run octo Git Tool in temp pane"
 
 [[keys.command]]
