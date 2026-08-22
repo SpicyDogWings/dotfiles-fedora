@@ -3,20 +3,48 @@ layout = [0, 1, 0]
 
 [opener]
 edit = [
-  {run = "$EDITOR %s", desc = "Edit in default editor", block = true },
-  {run = "neovide %s", desc = "Edit in neovide", orphan = true }
+  { run = "$EDITOR %s", desc = "Edit in default editor", block = true },
+  { run = "neovide %s", desc = "Edit in neovide", orphan = true },
 ]
 terminal-dir = [
-  { run = 'alacritty --working-directory %d1', orphan = true, desc = "Alacritty aquí" }
+  { run = 'alacritty --working-directory %s1', orphan = true, desc = "Alacritty acá" },
 ]
 opencode-dir = [
-  { run = 'alacritty --working-directory %d1 -e opencode', orphan = true, desc = "OpenCode aquí" }
+  { run = 'alacritty --working-directory %s1 -e opencode', orphan = true, desc = "OpenCode acá" },
 ]
 hx-dir = [
-  { run = 'alacritty --working-directory %d1 -e hx', orphan = true, desc = "Helix aquí" }
+  { run = 'alacritty --working-directory %s1 -e hx', orphan = true, desc = "Helix acá" },
+]
+terminal-file = [
+  { run = 'alacritty --working-directory %d1', orphan = true, desc = "Alacritty acá" },
+]
+opencode-file = [
+  { run = 'alacritty --working-directory %d1 -e opencode', orphan = true, desc = "OpenCode acá" },
+]
+hx-file = [
+  { run = 'alacritty --working-directory %d1 -e hx %s1', orphan = true, desc = "Helix acá" },
 ]
 
 [open]
-prepend_rules = [
-  { url = "*/", use = [ "terminal-dir", "opencode-dir", "hx-dir", "edit" ] },
+rules = [
+  # Folder
+  { url = "*/", use = [ "terminal-dir", "opencode-dir", "hx-dir", "edit", "open", "reveal" ] },
+  # Text
+  { mime = "text/*", use = [ "terminal-file", "opencode-file", "hx-file", "edit", "reveal" ] },
+  # Image
+  { mime = "image/*", use = [ "terminal-file", "opencode-file", "open", "reveal" ] },
+  # Media
+  { mime = "{audio,video}/*", use = [ "terminal-file", "opencode-file", "play", "reveal" ] },
+  # Code
+  { mime = "application/{json,ndjson,javascript,wine-extension-ini}", use = [ "terminal-file", "opencode-file", "hx-file", "edit", "reveal" ] },
+  # Archive
+  { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", use = [ "extract", "reveal" ] },
+  # Empty file
+  { mime = "inode/empty", use = [ "terminal-file", "opencode-file", "hx-file", "edit", "reveal" ] },
+  # Virtual file system
+  { mime = "vfs/{absent,stale}", use = "download" },
+  # Trash
+  { mime = "trash/**", use = [ "open", "trash" ] },
+  # Fallback
+  { url = "*", use = [ "terminal-file", "opencode-file", "hx-file", "open", "reveal" ] },
 ]
