@@ -28,23 +28,23 @@ hx-file = [
 [open]
 rules = [
   # Folder
-  { url = "*/", use = [ "terminal-dir", "opencode-dir", "hx-dir", "edit", "open", "reveal" ] },
+  { url = "*/", use = [ "open", "terminal-dir", "opencode-dir", "hx-dir", "edit", "reveal" ] },
   # Text
-  { mime = "text/*", use = [ "terminal-file", "opencode-file", "hx-file", "edit", "reveal" ] },
+  { mime = "text/*", use = [ "open", "edit", "reveal", "terminal-file", "opencode-file", "hx-file" ] },
   # Image
-  { mime = "image/*", use = [ "terminal-file", "opencode-file", "open", "reveal" ] },
+  { mime = "image/*", use = [ "open", "reveal", "terminal-file", "opencode-file" ] },
   # Media
-  { mime = "{audio,video}/*", use = [ "terminal-file", "opencode-file", "play", "reveal" ] },
+  { mime = "{audio,video}/*", use = [ "open", "play", "reveal", "terminal-file", "opencode-file" ] },
   # Code
-  { mime = "application/{json,ndjson,javascript,wine-extension-ini}", use = [ "terminal-file", "opencode-file", "hx-file", "edit", "reveal" ] },
+  { mime = "application/{json,ndjson,javascript,wine-extension-ini}", use = [ "open", "edit", "reveal", "terminal-file", "opencode-file", "hx-file" ] },
   # Archive
   { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", use = [ "extract", "reveal" ] },
   # Empty file
-  { mime = "inode/empty", use = [ "terminal-file", "opencode-file", "hx-file", "edit", "reveal" ] },
+  { mime = "inode/empty", use = [ "open", "edit", "reveal", "terminal-file", "opencode-file", "hx-file" ] },
   # Virtual file system
   { mime = "vfs/{absent,stale}", use = "download" },
   # Trash
   { mime = "trash/**", use = [ "open", "trash" ] },
   # Fallback
-  { url = "*", use = [ "terminal-file", "opencode-file", "hx-file", "open", "reveal" ] },
+  { url = "*", use = [ "open", "edit", "reveal", "terminal-file", "opencode-file", "hx-file" ] },
 ]

@@ -128,3 +128,10 @@ description = "Monitor de recursos de la terminal"
 manager = "dnf"
 package_name = "btop"
 binary_name = "btop"
+
+[[profiles.packages]]
+name = "ekphos"
+description = "Editor de markdown"
+manager = "cargo"
+package_name = "ekphos"
+binary_name = "ekphos"
