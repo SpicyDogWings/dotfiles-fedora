@@ -6,3 +6,17 @@ edit = [
   {run = "$EDITOR %s", desc = "Edit in default editor", block = true },
   {run = "neovide %s", desc = "Edit in neovide", orphan = true }
 ]
+terminal-dir = [
+  { run = 'alacritty --working-directory %d1', orphan = true, desc = "Alacritty aquí" }
+]
+opencode-dir = [
+  { run = 'alacritty --working-directory %d1 -e opencode', orphan = true, desc = "OpenCode aquí" }
+]
+hx-dir = [
+  { run = 'alacritty --working-directory %d1 -e hx', orphan = true, desc = "Helix aquí" }
+]
+
+[open]
+prepend_rules = [
+  { url = "*/", use = [ "terminal-dir", "opencode-dir", "hx-dir", "edit" ] },
+]

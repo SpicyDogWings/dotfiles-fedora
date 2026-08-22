@@ -121,3 +121,10 @@ manager = "custom"
 binary_name = "./install"
 install_command = "gitwig"
 existence_check = "gitwig"
+
+[[profiles.packages]]
+name = "bashtop"
+description = "Monitor de recursos de la terminal"
+manager = "dnf"
+package_name = "btop"
+binary_name = "btop"
