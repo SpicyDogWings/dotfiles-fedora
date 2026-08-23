@@ -7,6 +7,9 @@ import = [
 decorations = "Full"
 padding = { x = 20, y = 20 }
 
+[terminal]
+shell = { program = "/usr/bin/fish", args = ["-C", "fastfetch"] }
+
 [font]
 normal = { family = "CommitMono Nerd Font Mono" }
 size = 14
