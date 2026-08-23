@@ -8,6 +8,7 @@ name = "default"
 synced_files = [
     ".config/alacritty",
     ".config/dotstate/scripts",
+    ".config/fastfetch",
     ".config/fish",
     ".config/ghostty",
     ".config/helix",
