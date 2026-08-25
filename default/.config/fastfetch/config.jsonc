@@ -76,6 +76,12 @@
             "type": "kernel",
             "key": "╰─",
             "keyColor": "blue"
+        },
+        "break",
+
+        {
+            "type": "colors",
+            "symbol": "circle"
         }
     ]
 }
