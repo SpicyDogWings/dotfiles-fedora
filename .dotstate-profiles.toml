@@ -22,6 +22,7 @@ synced_files = [
     ".config/yazi",
     ".config/zed",
     ".config/zellij",
+    ".local/share/backgrounds",
     ".local/share/fonts/CommitMono",
     ".var/app/io.typora.Typora/config/Typora/themes",
     "Music/rename_mp3.sh",
