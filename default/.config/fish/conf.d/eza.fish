@@ -5,7 +5,7 @@ if not command -q eza
     exit 0
 end
 
-alias ls="eza --icons"
-alias ll="eza --icons --git --group-directories-first -la"
-alias la="eza --icons --group-directories-first -a"
-alias tree="eza --icons --tree"
+alias ls="eza --icons=auto"
+alias ll="eza --icons=auto --git --group-directories-first -la"
+alias la="eza --icons=auto --group-directories-first -a"
+alias tree="eza --icons=auto --tree"
