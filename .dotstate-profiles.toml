@@ -7,7 +7,6 @@ synced_files = []
 name = "default"
 synced_files = [
     ".config/alacritty",
-    ".config/dotstate/scripts",
     ".config/fastfetch",
     ".config/fish",
     ".config/ghostty",
@@ -137,3 +136,12 @@ description = "Editor de markdown"
 manager = "cargo"
 package_name = "ekphos"
 binary_name = "ekphos"
+
+[[profiles]]
+name = "2pc"
+description = "Second pc, more productiviry"
+inherits = "default"
+synced_files = [
+    ".config/fish",
+]
+packages = []
