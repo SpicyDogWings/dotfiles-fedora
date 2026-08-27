@@ -107,7 +107,7 @@ $env.NU_PLUGIN_DIRS = [
 # ---------------
  
 # environment vars
-$env.PNPM_HOME = "/home/spicydogwings/.local/share/pnpm"
+$env.PNPM_HOME = ($nu.home-path | path join '.local/share/pnpm')
 
 #bins
 $env.Path = ($env.Path | append '~/.local/bin')
