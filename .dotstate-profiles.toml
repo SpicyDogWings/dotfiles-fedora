@@ -137,11 +137,24 @@ manager = "cargo"
 package_name = "ekphos"
 binary_name = "ekphos"
 
+[[profiles.packages]]
+name = "uv"
+description = "Instalador de programas python"
+manager = "custom"
+binary_name = "uv"
+install_command = "~/.config/dotstate/storage/scripts/install-uv.sh"
+
+[[profiles.packages]]
+name = "graphify"
+description = "Memory code base para proyectos"
+manager = "custom"
+binary_name = "graphify"
+install_command = "~/.config/dotstate/storage/scripts/install-graphify.sh"
+existence_check = "graphify"
+
 [[profiles]]
 name = "2pc"
 description = "Second pc, more productiviry"
 inherits = "default"
-synced_files = [
-    ".config/fish",
-]
+synced_files = [".config/fish"]
 packages = []
