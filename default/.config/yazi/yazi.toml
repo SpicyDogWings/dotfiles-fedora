@@ -4,47 +4,70 @@ layout = [0, 1, 0]
 [opener]
 edit = [
   { run = "$EDITOR %s", desc = "Edit in default editor", block = true },
-  { run = "neovide %s", desc = "Edit in neovide", orphan = true },
 ]
+
+# Alacritty
 terminal-dir = [
-  { run = 'alacritty --working-directory %s1', orphan = true, desc = "Alacritty acá" },
+  { run = 'alacritty --working-directory %s1', orphan = true, desc = "Abrir con Alacritty" },
 ]
-opencode-dir = [
-  { run = 'alacritty --working-directory %s1 -e opencode', orphan = true, desc = "OpenCode acá" },
-]
-hx-dir = [
-  { run = 'alacritty --working-directory %s1 -e hx', orphan = true, desc = "Helix acá" },
+terminal-here = [
+  { run = 'alacritty', orphan = true, desc = "Abrir Alacritty" },
 ]
 terminal-file = [
-  { run = 'alacritty --working-directory %d1', orphan = true, desc = "Alacritty acá" },
+  { run = 'alacritty --working-directory %d1', orphan = true, desc = "Abrir con Alacritty" },
 ]
-opencode-file = [
-  { run = 'alacritty --working-directory %d1 -e opencode', orphan = true, desc = "OpenCode acá" },
+terminal-file-here = [
+  { run = 'alacritty', orphan = true, desc = "Abrir Alacritty" },
+]
+
+# Helix
+hx-dir = [
+  { run = 'alacritty --working-directory %s1 -e hx', orphan = true, desc = "Abrir con Helix" },
+]
+hx-here = [
+  { run = 'alacritty -e hx', orphan = true, desc = "Abrir Helix" },
 ]
 hx-file = [
-  { run = 'alacritty --working-directory %d1 -e hx %s1', orphan = true, desc = "Helix acá" },
+  { run = 'alacritty --working-directory %d1 -e hx %s1', orphan = true, desc = "Abrir con Helix" },
+]
+hx-file-here = [
+  { run = 'alacritty -e hx', orphan = true, desc = "Abrir Helix" },
+]
+
+# OpenCode
+opencode-dir = [
+  { run = 'alacritty --working-directory %s1 -e opencode', orphan = true, desc = "Abrir con OpenCode" },
+]
+opencode-here = [
+  { run = 'alacritty -e opencode', orphan = true, desc = "Abrir OpenCode" },
+]
+opencode-file = [
+  { run = 'alacritty --working-directory %d1 -e opencode', orphan = true, desc = "Abrir con OpenCode" },
+]
+opencode-file-here = [
+  { run = 'alacritty -e opencode', orphan = true, desc = "Abrir OpenCode" },
 ]
 
 [open]
 rules = [
   # Folder
-  { url = "*/", use = [ "open", "terminal-dir", "opencode-dir", "hx-dir", "edit", "reveal" ] },
+  { url = "*/", use = [ "open", "terminal-dir", "terminal-here", "hx-dir", "hx-here", "opencode-dir", "opencode-here", "edit", "reveal" ] },
   # Text
-  { mime = "text/*", use = [ "open", "edit", "reveal", "terminal-file", "opencode-file", "hx-file" ] },
+  { mime = "text/*", use = [ "open", "edit", "reveal", "terminal-file", "terminal-file-here", "hx-file", "hx-file-here", "opencode-file", "opencode-file-here" ] },
   # Image
-  { mime = "image/*", use = [ "open", "reveal", "terminal-file", "opencode-file" ] },
+  { mime = "image/*", use = [ "open", "reveal", "terminal-file", "terminal-file-here" ] },
   # Media
-  { mime = "{audio,video}/*", use = [ "open", "play", "reveal", "terminal-file", "opencode-file" ] },
+  { mime = "{audio,video}/*", use = [ "open", "play", "reveal", "terminal-file", "terminal-file-here" ] },
   # Code
-  { mime = "application/{json,ndjson,javascript,wine-extension-ini}", use = [ "open", "edit", "reveal", "terminal-file", "opencode-file", "hx-file" ] },
+  { mime = "application/{json,ndjson,javascript,wine-extension-ini}", use = [ "open", "edit", "reveal", "terminal-file", "terminal-file-here", "hx-file", "hx-file-here", "opencode-file", "opencode-file-here" ] },
   # Archive
   { mime = "application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", use = [ "extract", "reveal" ] },
   # Empty file
-  { mime = "inode/empty", use = [ "open", "edit", "reveal", "terminal-file", "opencode-file", "hx-file" ] },
+  { mime = "inode/empty", use = [ "open", "edit", "reveal", "terminal-file", "terminal-file-here", "hx-file", "hx-file-here", "opencode-file", "opencode-file-here" ] },
   # Virtual file system
   { mime = "vfs/{absent,stale}", use = "download" },
   # Trash
   { mime = "trash/**", use = [ "open", "trash" ] },
   # Fallback
-  { url = "*", use = [ "open", "edit", "reveal", "terminal-file", "opencode-file", "hx-file" ] },
+  { url = "*", use = [ "open", "edit", "reveal", "terminal-file", "terminal-file-here", "hx-file", "hx-file-here", "opencode-file", "opencode-file-here" ] },
 ]
