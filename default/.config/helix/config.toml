@@ -37,3 +37,7 @@ C-y = [
   ':open %sh{cat /tmp/unique-file}',
   ':redraw',
 ]
+
+# Kill stuck debug adapter (vscode-php-debug doesn't always terminate)
+[keys.normal.G]
+k = ':sh pkill -f phpDebug.js'

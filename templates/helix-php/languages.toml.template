@@ -1,0 +1,47 @@
+# .helix/languages.toml
+# PHP debug configuration for Helix + Xdebug (brown/podman)
+#
+# INSTRUCTIONS:
+# 1. Copy this file to your project root: .helix/languages.toml
+# 2. Adjust serverSourceRoot to match your container's document root
+# 3. Adjust localSourceRoot to your local project path (usually leave as-is)
+# 4. Restart Helix to pick up changes
+#
+# USAGE:
+#   gb              Toggle breakpoint
+#   <Space> Gl      Start debugging (select "Listen for Xdebug")
+#   gc              Continue
+#   gn              Step over
+#   gi              Step into
+#   go              Step out
+#   gv              Inspect variables
+#   gs              Stack frames
+#   <Space> Gt      Terminate debug session
+#
+# TROUBLESHOOTING:
+#   - "Thread exited" immediately → check path mappings (serverSourceRoot/localSourceRoot)
+#   - "No debug adapter" → run: bash ~/.config/dotstate/storage/scripts/install-php-debug.sh
+#   - Adapter won't die → run: hx-dap kill
+
+[[language]]
+name = "php"
+
+[language.debugger]
+name = "vscode-php-debug"
+transport = "stdio"
+command = "node"
+args = ["HOME/.local/libexec/php-debug/out/phpDebug.js"]
+
+# Listen for Xdebug from container (brown default: port 9003)
+[[language.debugger.templates]]
+name = "Listen for Xdebug"
+request = "launch"
+completion = ["ignored"]
+args = { port = "9003", serverSourceRoot = "/var/www/html/PROJECT", localSourceRoot = "LOCAL_PATH" }
+
+# Debug current script via CLI
+[[language.debugger.templates]]
+name = "Launch current script"
+request = "launch"
+completion = ["filename"]
+args = { program = "{0}", runtimeExecutable = "php" }
