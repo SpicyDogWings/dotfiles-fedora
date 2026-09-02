@@ -1,10 +1,11 @@
 #!/bin/bash
 # hx-nightly — Build and install Helix nightly from master with DAP expensive-scope fix
-# Usage: hx-nightly [build|install|clean|info]
+# Usage: hx-nightly [build|install|full|clean|info]
 #
 # Commands:
 #   build   Clone master, patch, and compile
-#   install Install the already-built binary to ~/.local/bin/hx
+#   install Install the built binary to ~/.local/bin/hx
+#   full    build + install + deps + grammars (complete setup)
 #   clean   Remove build artifacts
 #   info    Show current installed version
 
@@ -67,6 +68,26 @@ case "${1:-help}" in
         $BIN --version
         ;;
 
+    full)
+        echo "==> Full Helix nightly setup..."
+        echo ""
+
+        "$0" build
+        echo ""
+        "$0" install
+        echo ""
+        bash "$(dirname "$0")/../install/install-helix-deps.sh"
+        echo ""
+        echo "==> Fetching tree-sitter grammars..."
+        hx --grammar fetch
+        echo "==> Building grammars..."
+        hx --grammar build
+
+        echo ""
+        echo "✅ Full Helix nightly setup complete."
+        hx --version
+        ;;
+
     clean)
         echo "==> Cleaning build directory..."
         rm -rf "$BUILD_DIR"
@@ -83,10 +104,11 @@ case "${1:-help}" in
         ;;
 
     *)
-        echo "Usage: hx-nightly <build|install|clean|info>"
+        echo "Usage: hx-nightly <build|install|full|clean|info>"
         echo ""
         echo "   build   Clone master, patch DAP fix, and compile"
         echo "   install Install the built binary to ~/.local/bin/hx"
+        echo "   full    build + install + deps + grammars (complete setup)"
         echo "   clean   Remove all build artifacts"
         echo "   info    Show installed version"
         exit 1

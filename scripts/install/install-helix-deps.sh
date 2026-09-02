@@ -1,8 +1,8 @@
 #!/bin/bash
+# install-helix-deps — Common Helix dependencies (LSPs, formatters, tools)
+# Shared between stable and nightly installations
 
 set -e
-
-# Install helix tools for web and PHP development
 
 BIN_DIR="$HOME/.local/bin"
 
@@ -41,12 +41,8 @@ cargo install php-lsp
 echo "==> Installing PHP debug adapter..."
 bash "$(dirname "$0")/install-php-debug.sh"
 
-echo "==> Fetching tree-sitter grammars..."
-hx --grammar fetch
-echo "==> Building grammars..."
-hx --grammar build
-echo "==> Copying query files to runtime..."
+echo "==> Copying custom query files to runtime..."
 bash "$(dirname "$0")/install-helix-queries.sh"
 
 echo ""
-echo "All Helix tools installed to $BIN_DIR"
+echo "✅ All Helix dependencies installed to $BIN_DIR"
