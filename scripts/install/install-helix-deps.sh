@@ -1,20 +1,52 @@
 #!/bin/bash
 
-# Install helix tools for PHP development
+set -e
 
-## install mago (linter+formatter+analyzer) for PHP
+# Install helix tools for web and PHP development
+
+BIN_DIR="$HOME/.local/bin"
+
+echo "==> Installing Biome (LSP for HTML/JS/TS)..."
+mkdir -p /tmp/biome-install
+cd /tmp/biome-install
+pnpm init -y >/dev/null 2>&1
+pnpm add @biomejs/biome >/dev/null 2>&1
+cp node_modules/.pnpm/@biomejs+cli-linux-x64@*/node_modules/@biomejs/cli-linux-x64/biome "$BIN_DIR/biome"
+chmod +x "$BIN_DIR/biome"
+rm -rf /tmp/biome-install
+echo "✅ Biome: $(biome --version)"
+
+echo "==> Installing oxfmt (formatter)..."
+curl -fsSL "https://github.com/oxc-project/oxc/releases/latest/download/oxfmt-x86_64-unknown-linux-gnu.tar.gz" -o /tmp/oxfmt.tar.gz
+tar -xzf /tmp/oxfmt.tar.gz -C /tmp/
+cp /tmp/oxfmt-x86_64-unknown-linux-gnu "$BIN_DIR/oxfmt"
+chmod +x "$BIN_DIR/oxfmt"
+rm -f /tmp/oxfmt.tar.gz /tmp/oxfmt-x86_64-unknown-linux-gnu
+echo "✅ oxfmt: $(oxfmt --version)"
+
+echo "==> Installing oxlint (linter)..."
+curl -fsSL "https://github.com/oxc-project/oxc/releases/latest/download/oxlint-x86_64-unknown-linux-gnu.tar.gz" -o /tmp/oxlint.tar.gz
+tar -xzf /tmp/oxlint.tar.gz -C /tmp/
+cp /tmp/oxlint-x86_64-unknown-linux-gnu "$BIN_DIR/oxlint"
+chmod +x "$BIN_DIR/oxlint"
+rm -f /tmp/oxlint.tar.gz /tmp/oxlint-x86_64-unknown-linux-gnu
+echo "✅ oxlint: $(oxlint --version)"
+
+echo "==> Installing mago (PHP linter+formatter+analyzer)..."
 curl --proto '=https' --tlsv1.2 -sSf https://carthage.software/mago.sh | bash
 
-## install PHP language server
+echo "==> Installing PHP language server..."
 cargo install php-lsp
 
-## install PHP debug adapter (vscode-php-debug for Helix DAP)
+echo "==> Installing PHP debug adapter..."
 bash "$(dirname "$0")/install-php-debug.sh"
 
-## fetch + build tree-sitter grammars and copy queries to runtime
 echo "==> Fetching tree-sitter grammars..."
 hx --grammar fetch
 echo "==> Building grammars..."
 hx --grammar build
 echo "==> Copying query files to runtime..."
 bash "$(dirname "$0")/install-helix-queries.sh"
+
+echo ""
+echo "All Helix tools installed to $BIN_DIR"
