@@ -74,6 +74,19 @@ echo ""
 check_version "helix" "$(hx --version 2>/dev/null || helix --version 2>/dev/null)"
 
 echo ""
+echo "=== Tree-sitter PHP highlighting ==="
+
+PHP_HL="$HOME/.config/helix/runtime/queries/php/highlights.scm"
+if [ -f "$PHP_HL" ]; then
+    echo "✅ PHP highlight queries"
+    ((PASS++))
+else
+    echo "❌ PHP highlight queries (missing: $PHP_HL)"
+    echo "   → Run: bash ~/.config/dotstate/storage/scripts/install/install-helix-queries.sh"
+    ((FAIL++))
+fi
+
+echo ""
 echo "================================"
 echo "Results: $PASS passed, $FAIL failed"
 

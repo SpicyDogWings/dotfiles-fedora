@@ -7,3 +7,7 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Helix tree-sitter grammars (compiled .so files, ~2.3GB)
+# Regenerate with: hx --grammar fetch && hx --grammar build
+default/.config/helix/runtime/grammars/

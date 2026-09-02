@@ -1,11 +1,31 @@
 [[language]]
 name = "html"
 formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.html"] }
-language-servers = ["vscode-html-languageserver"]
-auto-format = true
-[language-server.vscode-html-languageserver]
-command = "vscode-html-languageserver"
-args = ["--stdio"]
+language-servers = ["biome-lsp"]
+
+[[language]]
+name = "javascript"
+formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.js"] }
+language-servers = ["biome-lsp"]
+
+[[language]]
+name = "typescript"
+formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.ts"] }
+language-servers = ["biome-lsp"]
+
+[[language]]
+name = "jsx"
+formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.jsx"] }
+language-servers = ["biome-lsp"]
+
+[[language]]
+name = "tsx"
+formatter = { command = "oxfmt", args = ["--stdin-filepath", "stdin.tsx"] }
+language-servers = ["biome-lsp"]
+
+[language-server.biome-lsp]
+command = "biome"
+args = ["lsp-proxy"]
 
 
 [[language]]
@@ -16,8 +36,8 @@ auto-format = true
 [language.debugger]
 name = "vscode-php-debug"
 transport = "stdio"
-command = "node"
-args = ["/home/sheepcode/.local/libexec/php-debug/out/phpDebug.js"]
+command = "/home/sheepcode/.local/bin/hx-php-debug"
+args = []
 [[language.debugger.templates]]
 name = "Listen for Xdebug (brown)"
 request = "launch"

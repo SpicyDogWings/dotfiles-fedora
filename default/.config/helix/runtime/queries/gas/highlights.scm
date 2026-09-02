@@ -1,0 +1,21 @@
+(comment) @comment
+(number) @constant.numeric
+(directive_name) @keyword.directive
+(macro_var) @variable
+(symbol) @variable
+(label) @function
+(instruction_prefix) @keyword
+(instruction_name) @function.special
+(register) @constant.builtin
+(string) @string
+(char) @constant.character
+(type) @type
+(constant "$" @constant)
+(operand_modifier) @attribute
+
+(expression
+  ["-" "+" "*" "/" "="] @operator)
+
+["(" ")"] @punctuation.bracket
+
+["," ":"] @punctuation.delimiter
